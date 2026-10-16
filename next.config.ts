@@ -14,9 +14,14 @@ const basePath = process.env.NEXT_BASE_PATH ?? '';
 const nextConfig: NextConfig = {
   output: 'export',
   basePath: basePath || undefined,
+  // Exposta no browser para `src/lib/image-loader.ts` prefixar as imagens.
+  env: {
+    NEXT_BASE_PATH: basePath,
+  },
   /* config options here */
   images: {
-    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './src/lib/image-loader.ts',
   },
 };
 
