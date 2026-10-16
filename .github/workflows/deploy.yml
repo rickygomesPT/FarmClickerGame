@@ -4,7 +4,7 @@
 #   1. Criar o repositório (ex.: agricultura-incremental-game) e fazer push.
 #   2. Settings → Pages → Build and deployment → Source: "GitHub Actions".
 # Depois, cada push para `main` publica sozinho. O site fica em:
-#   https://<user>.github.io/agricultura-incremental-game/
+#   https://<user>.github.io/FarmClickerGame/
 # Se for site de utilizador (<user>.github.io), pôr NEXT_BASE_PATH a ''.
 name: Deploy to GitHub Pages
 
@@ -37,7 +37,7 @@ jobs:
       - run: npm test
       - run: npm run build
         env:
-          NEXT_BASE_PATH: /agricultura-incremental-game
+          NEXT_BASE_PATH: /FarmClickerGame
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

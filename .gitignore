@@ -33,6 +33,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# docs locais (não vão para o GitHub)
+PROMPT.md
+README.md
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
