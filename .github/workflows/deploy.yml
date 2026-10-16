@@ -1,0 +1,54 @@
+# Deploy da Quinta Magnífica para o GitHub Pages.
+#
+# Preparação (só uma vez, no github.com):
+#   1. Criar o repositório (ex.: agricultura-incremental-game) e fazer push.
+#   2. Settings → Pages → Build and deployment → Source: "GitHub Actions".
+# Depois, cada push para `main` publica sozinho. O site fica em:
+#   https://<user>.github.io/agricultura-incremental-game/
+# Se for site de utilizador (<user>.github.io), pôr NEXT_BASE_PATH a ''.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      # --legacy-peer-deps por conflito de peers pré-existente (ver README)
+      - run: npm ci --legacy-peer-deps
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+        env:
+          NEXT_BASE_PATH: /agricultura-incremental-game
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

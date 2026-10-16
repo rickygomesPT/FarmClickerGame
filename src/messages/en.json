@@ -1,0 +1,1102 @@
+{
+  "App": {
+    "title": "Quinta Magnífica",
+    "description": "An incremental game about farming, animal husbandry and fishing."
+  },
+  "General": {
+    "error": "Error!",
+    "guest": "Guest",
+    "coins": "coins",
+    "total_coins": "total coins",
+    "upgrades": "upgrades"
+  },
+  "GameHeader": {
+    "title": "My Farm",
+    "level": "Level",
+    "levelValue": "Level: {level}",
+    "xpA11y": "XP {xp} of {xpToNextLevel}",
+    "export": "Export",
+    "import": "Import",
+    "exportTooltip": "Save progress to a file",
+    "importTooltip": "Load progress from a file",
+    "language": "Language",
+    "newGame": "New game",
+    "newGameTooltip": "Start over (erases progress)",
+    "newGameConfirm": "Start a new game? Current progress will be erased.",
+    "stats": "Statistics",
+    "statsTooltip": "View farm statistics",
+    "mute": "Mute",
+    "unmute": "Unmute"
+  },
+  "HomePage": {
+    "tabs": {
+      "fields": "Fields",
+      "animals": "Animals",
+      "fishing": "Fishing",
+      "contracts": "Contracts",
+      "inventory": "Inventory",
+      "recipes": "Recipes"
+    },
+    "loading": "Loading your magnificent farm...",
+    "levelUp": {
+      "title": "Level Up!",
+      "description": "You reached level {level}! New crops, animals or recipes may be available."
+    },
+    "achievementUnlocked": {
+      "title": "Achievement Unlocked!",
+      "description": "You completed: {achievementTitle}"
+    },
+    "missionReady": {
+      "title": "Mission Ready to Claim!",
+      "description": "You completed: {missionDescription}"
+    },
+    "missions": {
+      "harvest": "Harvest {amount} {item}!",
+      "earn": "Earn {amount} {item}.",
+      "plant": "Plant {amount} {item}.",
+      "buy": "Buy {amount} {item}.",
+      "collect": "Collect {amount} {item}.",
+      "have": "Accumulate {amount} {item}!",
+      "upgrade": "Do {amount} {item}.",
+      "craft": "Craft {amount} {item}!"
+    },
+    "errors": {
+      "invalidPlantField": "Invalid field ID or game state not found.",
+      "cannotPlantDefault": "Not enough coins, invalid crop or low level.",
+      "levelTooLowForCrop": "Level {level} required to plant {cropName}.",
+      "insufficientCurrencyForSeeds": "Not enough coins to buy seeds for {cropName}.",
+      "cannotPlantTitle": "Cannot plant!",
+      "gameStateNotFound": "Game state not found.",
+      "replantErrorTitle": "Error replanting!",
+      "invalidFieldForReplant": "Invalid field or crop for replanting.",
+      "cannotReplantDefault": "Not enough coins, invalid crop or low level to replant.",
+      "levelTooLowForReplant": "Level {level} required to replant {cropName}.",
+      "insufficientCurrencyForReplant": "Not enough coins for seeds of {cropName}.",
+      "cannotReplantTitle": "Cannot replant!",
+      "harvestErrorTitle": "Harvest Error!",
+      "invalidFieldForHarvest": "Invalid field or crop.",
+      "cropNotFound": "Crop not found.",
+      "invalidPenId": "Invalid pen ID or game state not found.",
+      "cannotBuyAnimalDefault": "Not enough coins, invalid animal or low level.",
+      "levelTooLowForAnimal": "Level {level} required to buy {animalName}.",
+      "insufficientCurrencyForAnimal": "Not enough coins to buy {animalName}.",
+      "cannotBuyAnimalTitle": "Cannot buy!",
+      "collectErrorTitle": "Collect Error!",
+      "invalidPenOrAnimal": "Invalid pen or animal.",
+      "animalTypeNotFound": "Animal type not found or does not produce items regularly.",
+      "productNotFound": "Animal product not found.",
+      "butcherFailedTitle": "Butchering Failed!",
+      "emptyPen": "Empty pen or invalid animal.",
+      "animalNotForMeat": "This animal does not produce meat or invalid data.",
+      "meatProductNotFound": "Meat product not found in the configuration.",
+      "sellFailedTitle": "Sale Failed!",
+      "invalidAmount": "Invalid or insufficient quantity in inventory.",
+      "buyFailedTitle": "Purchase Failed!",
+      "insufficientCurrencyForField": "Not enough coins to buy a new field.",
+      "insufficientCurrencyForPen": "Not enough coins to buy a new pen.",
+      "stateErrorTitle": "State Error",
+      "upgradeFailedTitle": "Upgrade Failed!",
+      "fieldNotFound": "Field not found.",
+      "penNotFound": "Pen not found.",
+      "maxLevelReached": "This field is already at the maximum level.",
+      "insufficientCurrencyForUpgrade": "Not enough coins. Cost: {cost}",
+      "achievementNotReady": "Achievement not ready to claim or already claimed.",
+      "craftingErrorTitle": "Crafting Error!",
+      "recipeNotFound": "Recipe not found.",
+      "levelTooLowTitle": "Low Level!",
+      "levelTooLowToCraft": "You need to be level {level} to craft {recipeName}.",
+      "insufficientIngredientsTitle": "Not Enough Ingredients!",
+      "insufficientIngredientsToCraft": "You don't have all the ingredients to craft {recipeName}.",
+      "noCoinsTitle": "No Coins!",
+      "noCoinsForBait": "You need {cost} coins to buy bait.",
+      "noBaitTitle": "No Bait!",
+      "noBaitDescription": "Buy more bait to fish.",
+      "noItemTitle": "No Item!",
+      "noItemToUse": "You don't have this item to use.",
+      "notApplicableTitle": "Not Applicable!",
+      "itemNotOnGrowingCrops": "This item can only be used on growing crops.",
+      "noEffectTitle": "No Effect!",
+      "itemHadNoEffect": "The item did not reduce growth time further."
+    },
+    "plantStarted": {
+      "title": "Planting Started!",
+      "description": "{cropName} was planted in the field."
+    },
+    "replantStarted": {
+      "title": "Replanting Started!",
+      "description": "{cropName} was replanted in the field."
+    },
+    "harvestSuccess": {
+      "title": "Harvest Done!",
+      "description": "You harvested {amount} {itemName}!"
+    },
+    "animalBought": {
+      "title": "Animal Bought!",
+      "description": "A {animalName} was added to the pen."
+    },
+    "productCollected": {
+      "title": "Product Collected!",
+      "description": "You collected {amount} {productName}!"
+    },
+    "butcherSuccess": {
+      "title": "Animal Butchered!",
+      "description": "You obtained {amount} {meatName}. The pen is now empty."
+    },
+    "sellSuccess": {
+      "title": "Sale Successful!",
+      "description": "You sold {amount} {itemName} for {earnings} coins."
+    },
+    "fieldBought": {
+      "title": "Field Bought!",
+      "description": "You bought a new field for your farm!"
+    },
+    "penBought": {
+      "title": "Pen Bought!",
+      "description": "You bought a new pen for your animals!"
+    },
+    "fieldUpgraded": {
+      "title": "Field Upgraded!",
+      "description": "Field #{fieldId} upgraded to level {level}."
+    },
+    "penUpgraded": {
+      "title": "Pen Upgraded!",
+      "description": "Pen #{penId} upgraded to level {level}."
+    },
+    "rewardCollected": {
+      "title": "Reward Collected!",
+      "description": "You earned {reward} coins and {xp} XP!"
+    },
+    "achievementClaimed": {
+      "title": "Achievement Claimed!",
+      "description": "You earned {currency} coins and {xp} XP for completing: {achievementTitle}!"
+    },
+    "itemCrafted": {
+      "title": "Item Crafted!",
+      "description": "You crafted {quantity} {itemName}! Earned {xp} XP."
+    },
+    "wait": {
+      "title": "Wait!",
+      "description": "You can collect water again soon."
+    },
+    "waterCollected": {
+      "title": "Water Collected!",
+      "description": "You collected 1 unit of water."
+    },
+    "baitBought": {
+      "title": "Bait Bought!",
+      "description": "You bought {amount} bait."
+    },
+    "fishingRefreshed": {
+      "title": "Fishing Updated!",
+      "description": "New fish may have appeared on the grid."
+    },
+    "fishCaught": {
+      "title": "Caught!",
+      "description": "You caught a {fishName}! Earned {xp} XP."
+    },
+    "fishMissed": {
+      "title": "Nothing Bit!",
+      "description": "The bait was lost."
+    },
+    "consumableUsed": {
+      "title": "{itemName} Used!",
+      "description": "{itemName} accelerated the growth of {cropName}!"
+    },
+    "save": {
+      "exportTitle": "Progress Exported!",
+      "exportDescription": "The file with your progress was saved on your computer.",
+      "importTitle": "Progress Imported!",
+      "importDescription": "Your farm was loaded from the file.",
+      "importConfirm": "Import the progress from the file? This will replace your current progress.",
+      "importInvalidTitle": "Invalid File!",
+      "importInvalidDescription": "The selected file does not look like a valid Quinta Magnífica save."
+    },
+    "contractArrived": {
+      "title": "New contract!",
+      "description": "A customer placed an order. Check the Contracts tab."
+    },
+    "contractFulfilled": {
+      "title": "Contract fulfilled!",
+      "description": "+{reward} coins for the contract."
+    }
+  },
+  "FieldCard": {
+    "title": "Field {id}",
+    "level": "Lv. {level}",
+    "ready": "Ready!",
+    "harvest": "Harvest",
+    "replant": "Replant",
+    "plant": "Plant",
+    "upgrade": "Upgrade Lv. {level} ({cost})",
+    "water": "Water (−{percent}%)",
+    "switchCrop": "Switch Crop"
+  },
+  "AnimalPenCard": {
+    "title": "Pen {id}",
+    "level": "Lv. {level}",
+    "ready": "Ready!",
+    "collect": "Collect",
+    "waiting": "Waiting...",
+    "producing": "Producing...",
+    "buy": "Buy",
+    "butcher": "Butcher",
+    "butcherConfirm": "Butcher for {amount} {meat}?",
+    "switchAnimal": "Switch Animal",
+    "upgrade": "Upgrade Lv. {level} ({cost})"
+  },
+  "FieldSection": {
+    "title": "My Fields",
+    "buy": "Buy",
+    "buyAria": "Buy new field"
+  },
+  "AnimalPenSection": {
+    "title": "My Pens",
+    "buy": "Buy",
+    "buyAria": "Buy new pen"
+  },
+  "FishingSection": {
+    "title": "Fishing Spot",
+    "description": "Try your luck!",
+    "baitLabel": "Bait:",
+    "buyBait": "Buy {amount} bait ({cost})",
+    "refresh": "Refresh",
+    "loading": "Loading...",
+    "cellAria": "Fish at position {row}, {col}",
+    "imageAlt": "Fishing spot",
+    "baitImageAlt": "Bait"
+  },
+  "ControlPanel": {
+    "missions": "Missions",
+    "achievements": "Achievements",
+    "inventoryTitle": "Inventory",
+    "inventoryEmpty": "Inventory is empty.",
+    "pricePerUnit": "{price} coins/unit",
+    "quantityPlaceholder": "Qty",
+    "sell": "Sell",
+    "craftingBench": "Recipe Bench",
+    "craftingDescription": "Craft new items from your inventory. Collect water or craft a watering can.",
+    "collectWater": "Collect Water",
+    "createWateringCan": "Craft Watering Can",
+    "createWateringCanAria": "Craft Watering Can",
+    "createOneWateringCan": "Craft 1 Watering Can",
+    "waterIngredients": "Water: {needed} (You have {owned})",
+    "levelRequired": "Level {level} required.",
+    "insufficientIngredients": "Not enough ingredients.",
+    "noRecipesYet": "No recipes available yet. Keep leveling up to unlock more!",
+    "requiresLevel": "Requires level {level}.",
+    "minLevel": "Min. Lv: {level}",
+    "ingredients": "Ingredients:",
+    "ingredientWithStock": "{name}: {quantity} ({owned} in stock)",
+    "craft": "Craft",
+    "craftWithName": "Craft {name}",
+    "eggCombinedName": "Egg (Chicken/Duck)",
+    "milkCombinedName": "Milk (Cow/Goat)"
+  },
+  "PlantCropDialog": {
+    "title": "Plant Crop",
+    "description": "Choose a crop to plant in this field. New crops are unlocked by leveling up.",
+    "noCrops": "No crops available at your level.",
+    "minLevel": "Min. Level: {level}",
+    "cost": "Cost: {cost}",
+    "plant": "Plant",
+    "notEnoughCoins": "Not enough coins",
+    "cancel": "Cancel"
+  },
+  "BuyAnimalDialog": {
+    "title": "Buy Animal",
+    "description": "Choose an animal for this pen. New animals are unlocked by leveling up.",
+    "noAnimals": "No animals available at your level.",
+    "minLevel": "Min. Level: {level}",
+    "cost": "Cost: {cost}",
+    "buy": "Buy",
+    "notEnoughCoins": "Not enough coins",
+    "cancel": "Cancel"
+  },
+  "MissionsDialog": {
+    "title": "My Missions",
+    "description": "Complete tasks to earn rewards and XP.",
+    "noActive": "No active missions. New missions will appear soon!",
+    "progress": "Progress: {current} / {target}",
+    "collect": "Collect",
+    "claimAll": "Claim all",
+    "close": "Close"
+  },
+  "AchievementsDialog": {
+    "title": "My Achievements",
+    "description": "Challenges to prove your mastery of the farm.",
+    "close": "Close",
+    "claimAll": "Claim all"
+  },
+  "AchievementItemCard": {
+    "reward": "Reward:",
+    "none": "None",
+    "claimed": "Claimed",
+    "collect": "Collect",
+    "inProgress": "In Progress"
+  },
+  "AchievementsList": {
+    "noneConfigured": "No achievements configured yet.",
+    "errorLoading": "Error loading progress for {title}"
+  },
+  "Items": {
+    "lettuce": {
+      "name": "Lettuce",
+      "description": "Green leaf for salads."
+    },
+    "wheat": {
+      "name": "Wheat",
+      "description": "Basic grain for flour and bread."
+    },
+    "strawberry": {
+      "name": "Strawberry",
+      "description": "Sweet and juicy red fruit."
+    },
+    "carrot": {
+      "name": "Carrot",
+      "description": "Orange, sweet and crunchy root."
+    },
+    "tomato": {
+      "name": "Tomato",
+      "description": "Red fruit used in salads and sauces."
+    },
+    "onion": {
+      "name": "Onion",
+      "description": "Bulb with a strong flavor, essential in cooking."
+    },
+    "cucumber": {
+      "name": "Cucumber",
+      "description": "Refreshing vegetable, great for salads."
+    },
+    "potato": {
+      "name": "Potato",
+      "description": "Versatile tuber, the base of many dishes."
+    },
+    "cabbage": {
+      "name": "Cabbage",
+      "description": "Green leafy vegetable, great for soups."
+    },
+    "pea": {
+      "name": "Pea",
+      "description": "Small green peas in a pod."
+    },
+    "sugarcane": {
+      "name": "Sugarcane",
+      "description": "Tall plant used to produce sugar."
+    },
+    "olive": {
+      "name": "Olive",
+      "description": "Olive tree fruit, for eating or oil."
+    },
+    "apple": {
+      "name": "Apple",
+      "description": "Crispy and popular fruit, comes in many colors."
+    },
+    "rice": {
+      "name": "Rice",
+      "description": "Staple grain in world cuisine."
+    },
+    "basil": {
+      "name": "Basil",
+      "description": "Aromatic herb, perfect for Italian dishes."
+    },
+    "mushroom": {
+      "name": "Mushroom",
+      "description": "Edible fungus, several types available."
+    },
+    "bellpepper": {
+      "name": "Bell Pepper",
+      "description": "Colorful vegetable, can be sweet or spicy."
+    },
+    "bean": {
+      "name": "Bean",
+      "description": "Nutritious legume, the base of many dishes."
+    },
+    "sunflower": {
+      "name": "Sunflower",
+      "description": "Plant with a big yellow flower, produces seeds."
+    },
+    "grape_crop": {
+      "name": "Grape",
+      "description": "Small fruits growing in bunches, used for wine or eaten directly."
+    },
+    "blueberry": {
+      "name": "Blueberry",
+      "description": "Small blue fruit, rich in antioxidants."
+    },
+    "orange": {
+      "name": "Orange",
+      "description": "Citrus fruit, rich in vitamin C."
+    },
+    "pear": {
+      "name": "Pear",
+      "description": "Sweet fruit with a distinctive shape."
+    },
+    "lemon": {
+      "name": "Lemon",
+      "description": "Sour citrus fruit, great for seasonings and drinks."
+    },
+    "banana": {
+      "name": "Banana",
+      "description": "Yellow curved fruit, rich in potassium."
+    },
+    "pumpkin": {
+      "name": "Pumpkin",
+      "description": "Big fruit, popular in autumn."
+    },
+    "eggplant": {
+      "name": "Eggplant",
+      "description": "Dark purple vegetable with a spongy texture."
+    },
+    "almond": {
+      "name": "Almond",
+      "description": "Nutritious and tasty dried fruit."
+    },
+    "melon": {
+      "name": "Melon",
+      "description": "Big sweet fruit, full of water."
+    },
+    "watermelon": {
+      "name": "Watermelon",
+      "description": "Big refreshing fruit, perfect for summer."
+    },
+    "corn": {
+      "name": "Corn",
+      "description": "Sweet yellow kernels that grow on cobs."
+    },
+    "egg": {
+      "name": "Chicken Egg",
+      "description": "Fresh chicken egg."
+    },
+    "duck_egg": {
+      "name": "Duck Egg",
+      "description": "Fresh duck egg, a bit bigger than a chicken one."
+    },
+    "milk": {
+      "name": "Cow Milk",
+      "description": "Fresh cow milk."
+    },
+    "goat_milk": {
+      "name": "Goat Milk",
+      "description": "Fresh goat milk with a distinct flavor."
+    },
+    "wool": {
+      "name": "Wool",
+      "description": "Soft sheep wool, for clothes."
+    },
+    "honey": {
+      "name": "Honey",
+      "description": "Sweet honey produced by bees."
+    },
+    "sunflower_seeds": {
+      "name": "Sunflower Seeds",
+      "description": "Nutritious sunflower seeds."
+    },
+    "sugar": {
+      "name": "Sugar",
+      "description": "Refined sugar, to sweeten."
+    },
+    "chicken_meat": {
+      "name": "Chicken Meat",
+      "description": "Fresh chicken meat."
+    },
+    "duck_meat": {
+      "name": "Duck Meat",
+      "description": "Tasty duck meat."
+    },
+    "beef_meat": {
+      "name": "Beef",
+      "description": "Prime beef."
+    },
+    "pork_meat": {
+      "name": "Pork",
+      "description": "Fresh pork."
+    },
+    "mutton_meat": {
+      "name": "Lamb",
+      "description": "Tender lamb meat."
+    },
+    "goat_meat_product": {
+      "name": "Goat Meat",
+      "description": "Goat meat with a characteristic flavor."
+    },
+    "rabbit_meat": {
+      "name": "Rabbit Meat",
+      "description": "Lean rabbit meat."
+    },
+    "turkey_meat": {
+      "name": "Turkey Meat",
+      "description": "Soft turkey meat."
+    },
+    "chicken": {
+      "name": "Chicken"
+    },
+    "duck": {
+      "name": "Duck"
+    },
+    "rabbit": {
+      "name": "Rabbit"
+    },
+    "sheep": {
+      "name": "Sheep"
+    },
+    "turkey": {
+      "name": "Turkey"
+    },
+    "pig": {
+      "name": "Pig"
+    },
+    "goat": {
+      "name": "Goat"
+    },
+    "bee": {
+      "name": "Bee"
+    },
+    "cow": {
+      "name": "Cow"
+    },
+    "flour": {
+      "name": "Wheat Flour",
+      "description": "Milled wheat flour, the base for many recipes."
+    },
+    "omelette": {
+      "name": "Omelette",
+      "description": "A simple omelette made with fresh farm eggs."
+    },
+    "watering_can": {
+      "name": "Watering Can",
+      "description": "A watering can that speeds up the growth of a crop by 25%."
+    },
+    "dough": {
+      "name": "Fresh Dough",
+      "description": "Fresh dough made with flour and water, ready to cook."
+    },
+    "bread": {
+      "name": "Bread",
+      "description": "A rustic bread made with farm flour."
+    },
+    "vegetable_soup": {
+      "name": "Vegetable Soup",
+      "description": "A warm and comforting soup."
+    },
+    "orange_juice": {
+      "name": "Orange Juice",
+      "description": "Fresh and natural orange juice."
+    },
+    "strawberry_compote": {
+      "name": "Strawberry Compote",
+      "description": "Sweet homemade compote of fresh strawberries."
+    },
+    "carrot_cake": {
+      "name": "Carrot Cake",
+      "description": "A fluffy carrot cake."
+    },
+    "blueberry_juice": {
+      "name": "Blueberry Juice",
+      "description": "A delicious antioxidant juice."
+    },
+    "blueberry_compote": {
+      "name": "Blueberry Compote",
+      "description": "A sweet compote rich in blueberries."
+    },
+    "mixed_salad": {
+      "name": "Salad",
+      "description": "A colorful and nutritious salad with fresh vegetables."
+    },
+    "apple_pie": {
+      "name": "Apple Pie",
+      "description": "A delicious homemade apple pie."
+    },
+    "cod_with_potatoes": {
+      "name": "Baked Cod with Potatoes",
+      "description": "Juicy baked cod with potatoes."
+    },
+    "grilled_sardine_meal": {
+      "name": "Grilled Sardine",
+      "description": "Grilled sardine served with potatoes and salad."
+    },
+    "duck_rice": {
+      "name": "Duck Rice",
+      "description": "A classic tasty and comforting dish."
+    },
+    "bean_stew": {
+      "name": "Bean Stew",
+      "description": "A rich and tasty bean stew."
+    },
+    "cheese": {
+      "name": "Cheese",
+      "description": "Fresh cheese made with farm milk."
+    },
+    "pancake": {
+      "name": "Pancake",
+      "description": "Fluffy pancakes, perfect for breakfast."
+    },
+    "goat_cheese_honey_toast": {
+      "name": "Toast with Goat Cheese and Honey",
+      "description": "A crunchy toast with creamy goat cheese and a drizzle of sweet honey."
+    },
+    "churrasco": {
+      "name": "Barbecue",
+      "description": "A generous selection of grilled meats, potatoes and salad."
+    },
+    "almond_cake": {
+      "name": "Almond Cake",
+      "description": "Fluffy and tasty cake with almonds."
+    },
+    "pizza_margarita": {
+      "name": "Margherita Pizza",
+      "description": "Classic pizza with tomato, cheese and basil."
+    },
+    "pumpkin_pie": {
+      "name": "Pumpkin Pie",
+      "description": "Classic pumpkin pie with spices."
+    },
+    "melon_juice": {
+      "name": "Melon Juice",
+      "description": "Refreshing melon juice."
+    },
+    "stuffed_eggplant": {
+      "name": "Stuffed Eggplant",
+      "description": "Eggplant stuffed with meat and vegetables."
+    },
+    "watermelon_juice": {
+      "name": "Watermelon Juice",
+      "description": "Sweet and hydrating watermelon juice."
+    },
+    "fruit_salad": {
+      "name": "Fruit Salad",
+      "description": "A refreshing and healthy fruit salad."
+    },
+    "pasta_tomato_basil": {
+      "name": "Pasta with Tomato and Basil",
+      "description": "A classic Italian dish with fresh farm ingredients."
+    },
+    "olive_oil": {
+      "name": "Olive Oil",
+      "description": "Extra virgin olive oil, pressed from fresh olives."
+    },
+    "rabbit_stew": {
+      "name": "Rabbit Stew",
+      "description": "A rich and comforting stew with rabbit meat."
+    },
+    "turkey_roast": {
+      "name": "Roast Turkey",
+      "description": "Succulent roast turkey with potatoes, a festive feast."
+    },
+    "water": {
+      "name": "Water",
+      "description": "Fresh and pure water, essential for some recipes."
+    },
+    "fishing_bait": {
+      "name": "Fishing Bait",
+      "description": "Used to attract fish in the fishing area."
+    },
+    "sardine": {
+      "name": "Sardine",
+      "description": "Small and common fish."
+    },
+    "seabass": {
+      "name": "Sea Bass",
+      "description": "Tasty fish, a bit harder to catch."
+    },
+    "cod": {
+      "name": "Cod",
+      "description": "Valuable fish found in deeper waters."
+    },
+    "salmon": {
+      "name": "Salmon",
+      "description": "Pink and delicious fish, great for grilling."
+    },
+    "tuna": {
+      "name": "Tuna",
+      "description": "Big and meaty fish, excellent for steaks."
+    },
+    "recipe_watering_can": {
+      "name": "Watering Can",
+      "description": "Craft a watering can."
+    },
+    "recipe_flour": {
+      "name": "Flour",
+      "description": "Turn wheat into flour."
+    },
+    "recipe_omelette": {
+      "name": "Omelette",
+      "description": "A simple omelette made with fresh farm eggs."
+    },
+    "recipe_dough": {
+      "name": "Fresh Dough",
+      "description": "Prepare fresh dough with flour and water."
+    },
+    "recipe_bread": {
+      "name": "Bread",
+      "description": "Craft a delicious bread with flour."
+    },
+    "recipe_vegetable_soup": {
+      "name": "Vegetable Soup",
+      "description": "A warm and comforting soup."
+    },
+    "recipe_orange_juice": {
+      "name": "Orange Juice",
+      "description": "Squeeze oranges for a delicious juice."
+    },
+    "recipe_strawberry_compote": {
+      "name": "Strawberry Compote",
+      "description": "Make a very sweet compote."
+    },
+    "recipe_carrot_cake": {
+      "name": "Carrot Cake",
+      "description": "Prepare a moist and tasty carrot cake."
+    },
+    "recipe_blueberry_juice": {
+      "name": "Blueberry Juice",
+      "description": "Squeeze blueberries for a refreshing juice."
+    },
+    "recipe_blueberry_compote": {
+      "name": "Blueberry Compote",
+      "description": "A sweet compote rich in blueberries."
+    },
+    "recipe_mixed_salad": {
+      "name": "Salad",
+      "description": "A colorful and nutritious salad with fresh vegetables."
+    },
+    "recipe_apple_pie": {
+      "name": "Apple Pie",
+      "description": "Bake an apple pie with fresh ingredients."
+    },
+    "recipe_cod_with_potatoes": {
+      "name": "Baked Cod with Potatoes",
+      "description": "Juicy baked cod with potatoes."
+    },
+    "recipe_grilled_sardine_meal": {
+      "name": "Grilled Sardine",
+      "description": "Grilled sardine served with potatoes and salad."
+    },
+    "recipe_duck_rice": {
+      "name": "Duck Rice",
+      "description": "Cook a delicious duck rice."
+    },
+    "recipe_bean_stew": {
+      "name": "Bean Stew",
+      "description": "Cook a tasty and nutritious bean stew."
+    },
+    "recipe_pancake": {
+      "name": "Pancake",
+      "description": "Fluffy pancakes, perfect for breakfast."
+    },
+    "recipe_cheese": {
+      "name": "Cheese",
+      "description": "Turn fresh milk into delicious cheese."
+    },
+    "recipe_churrasco": {
+      "name": "Barbecue",
+      "description": "Prepare a full barbecue with several meats, potatoes and salad."
+    },
+    "recipe_goat_cheese_honey_toast": {
+      "name": "Toast with Goat Cheese and Honey",
+      "description": "Prepare a delicious toast with goat cheese and honey."
+    },
+    "recipe_almond_cake": {
+      "name": "Almond Cake",
+      "description": "Fluffy and tasty cake with almonds."
+    },
+    "recipe_pizza_margarita": {
+      "name": "Margherita Pizza",
+      "description": "Make a classic and delicious pizza."
+    },
+    "recipe_pumpkin_pie": {
+      "name": "Pumpkin Pie",
+      "description": "Classic pumpkin pie with spices."
+    },
+    "recipe_melon_juice": {
+      "name": "Melon Juice",
+      "description": "Refreshing melon juice."
+    },
+    "recipe_stuffed_eggplant": {
+      "name": "Stuffed Eggplant",
+      "description": "Eggplant stuffed with meat and vegetables."
+    },
+    "recipe_watermelon_juice": {
+      "name": "Watermelon Juice",
+      "description": "Sweet and hydrating watermelon juice."
+    },
+    "recipe_fruit_salad": {
+      "name": "Fruit Salad",
+      "description": "Create a delicious and refreshing fruit salad."
+    },
+    "recipe_pasta_tomato_basil": {
+      "name": "Pasta with Tomato and Basil",
+      "description": "Prepare a delicious pasta dish with tomato and basil."
+    },
+    "recipe_olive_oil": {
+      "name": "Olive Oil",
+      "description": "Press olives to get pure olive oil."
+    },
+    "recipe_rabbit_stew": {
+      "name": "Rabbit Stew",
+      "description": "Cook a rich stew with rabbit meat and vegetables."
+    },
+    "recipe_turkey_roast": {
+      "name": "Roast Turkey",
+      "description": "Roast a whole turkey with potatoes for a feast."
+    },
+    "reach_level_10": {
+      "title": "Experienced Farmer",
+      "description": "Reach Level 10."
+    },
+    "reach_level_25": {
+      "title": "Master Farmer",
+      "description": "Reach Level 25."
+    },
+    "reach_level_40": {
+      "title": "Legendary Farmer",
+      "description": "Reach Level 40."
+    },
+    "complete_missions_20": {
+      "title": "Community Helper",
+      "description": "Complete 20 missions."
+    },
+    "complete_missions_75": {
+      "title": "Local Hero",
+      "description": "Complete 75 missions."
+    },
+    "complete_missions_150": {
+      "title": "Community Pillar",
+      "description": "Complete 150 missions."
+    },
+    "earn_currency_50k": {
+      "title": "Small Investor",
+      "description": "Earn a total of 50,000 coins."
+    },
+    "earn_currency_750k": {
+      "title": "Farm Tycoon",
+      "description": "Earn a total of 750,000 coins."
+    },
+    "earn_currency_1m": {
+      "title": "Millionaire Farmer",
+      "description": "Accumulate a total of 1,000,000 coins."
+    },
+    "own_fields_10": {
+      "title": "Agricultural Expansion",
+      "description": "Own 10 fields."
+    },
+    "own_fields_15": {
+      "title": "Agricultural Empire",
+      "description": "Own 15 fields."
+    },
+    "own_pens_10": {
+      "title": "Animal Lover",
+      "description": "Own 10 pens."
+    },
+    "own_pens_15": {
+      "title": "Animal Paradise",
+      "description": "Own 15 pens."
+    },
+    "upgrade_buildings_20": {
+      "title": "Master Builder",
+      "description": "Upgrade fields or pens 20 times."
+    },
+    "upgrade_buildings_40": {
+      "title": "Master Architect",
+      "description": "Upgrade fields or pens 40 times in total."
+    },
+    "collect_eggs_300": {
+      "title": "Giant Omelette",
+      "description": "Collect 300 Chicken Eggs."
+    },
+    "collect_total_1000": {
+      "title": "Friend of Animals (Products)",
+      "description": "Collect a total of 1000 animal products."
+    },
+    "harvest_total_2000": {
+      "title": "Green Thumb",
+      "description": "Harvest a total of 2000 crops."
+    },
+    "craft_items_total_200": {
+      "title": "Master Chef",
+      "description": "Craft a total of 200 items at the recipe bench."
+    },
+    "harvest_lettuce_100": {
+      "title": "Lettuce Master",
+      "description": "Harvest 100 Lettuce."
+    },
+    "harvest_wheat_100": {
+      "title": "Wheat Master",
+      "description": "Harvest 100 Wheat."
+    },
+    "harvest_strawberry_100": {
+      "title": "Strawberry Master",
+      "description": "Harvest 100 Strawberry."
+    },
+    "harvest_carrot_100": {
+      "title": "Carrot Master",
+      "description": "Harvest 100 Carrot."
+    },
+    "harvest_tomato_100": {
+      "title": "Tomato Master",
+      "description": "Harvest 100 Tomato."
+    },
+    "harvest_onion_100": {
+      "title": "Onion Master",
+      "description": "Harvest 100 Onion."
+    },
+    "harvest_cucumber_100": {
+      "title": "Cucumber Master",
+      "description": "Harvest 100 Cucumber."
+    },
+    "harvest_potato_100": {
+      "title": "Potato Master",
+      "description": "Harvest 100 Potato."
+    },
+    "harvest_cabbage_100": {
+      "title": "Cabbage Master",
+      "description": "Harvest 100 Cabbage."
+    },
+    "harvest_pea_100": {
+      "title": "Pea Master",
+      "description": "Harvest 100 Pea."
+    },
+    "harvest_sugarcane_100": {
+      "title": "Sugarcane Master",
+      "description": "Harvest 100 Sugarcane."
+    },
+    "harvest_olive_100": {
+      "title": "Olive Master",
+      "description": "Harvest 100 Olive."
+    },
+    "harvest_apple_100": {
+      "title": "Apple Master",
+      "description": "Harvest 100 Apple."
+    },
+    "harvest_rice_100": {
+      "title": "Rice Master",
+      "description": "Harvest 100 Rice."
+    },
+    "harvest_basil_100": {
+      "title": "Basil Master",
+      "description": "Harvest 100 Basil."
+    },
+    "harvest_mushroom_100": {
+      "title": "Mushroom Master",
+      "description": "Harvest 100 Mushroom."
+    },
+    "harvest_bellpepper_100": {
+      "title": "Bell Pepper Master",
+      "description": "Harvest 100 Bell Pepper."
+    },
+    "harvest_bean_100": {
+      "title": "Bean Master",
+      "description": "Harvest 100 Bean."
+    },
+    "harvest_sunflower_100": {
+      "title": "Sunflower Master",
+      "description": "Harvest 100 Sunflower."
+    },
+    "harvest_grape_crop_100": {
+      "title": "Grape Master",
+      "description": "Harvest 100 Grape."
+    },
+    "harvest_blueberry_100": {
+      "title": "Blueberry Master",
+      "description": "Harvest 100 Blueberry."
+    },
+    "harvest_orange_100": {
+      "title": "Orange Master",
+      "description": "Harvest 100 Orange."
+    },
+    "harvest_pear_100": {
+      "title": "Pear Master",
+      "description": "Harvest 100 Pear."
+    },
+    "harvest_lemon_100": {
+      "title": "Lemon Master",
+      "description": "Harvest 100 Lemon."
+    },
+    "harvest_banana_100": {
+      "title": "Banana Master",
+      "description": "Harvest 100 Banana."
+    },
+    "harvest_pumpkin_100": {
+      "title": "Pumpkin Master",
+      "description": "Harvest 100 Pumpkin."
+    },
+    "harvest_eggplant_100": {
+      "title": "Eggplant Master",
+      "description": "Harvest 100 Eggplant."
+    },
+    "harvest_almond_100": {
+      "title": "Almond Master",
+      "description": "Harvest 100 Almond."
+    },
+    "harvest_melon_100": {
+      "title": "Melon Master",
+      "description": "Harvest 100 Melon."
+    },
+    "harvest_watermelon_100": {
+      "title": "Watermelon Master",
+      "description": "Harvest 100 Watermelon."
+    },
+    "harvest_corn_100": {
+      "title": "Corn Master",
+      "description": "Harvest 100 Corn."
+    },
+    "buy_chicken_2": {
+      "title": "Chicken Breeder",
+      "description": "Buy 2 Chicken."
+    },
+    "buy_duck_2": {
+      "title": "Duck Breeder",
+      "description": "Buy 2 Duck."
+    },
+    "buy_rabbit_2": {
+      "title": "Rabbit Breeder",
+      "description": "Buy 2 Rabbit."
+    },
+    "buy_sheep_2": {
+      "title": "Sheep Breeder",
+      "description": "Buy 2 Sheep."
+    },
+    "buy_turkey_2": {
+      "title": "Turkey Breeder",
+      "description": "Buy 2 Turkey."
+    },
+    "buy_pig_2": {
+      "title": "Pig Breeder",
+      "description": "Buy 2 Pig."
+    },
+    "buy_goat_2": {
+      "title": "Goat Breeder",
+      "description": "Buy 2 Goat."
+    },
+    "buy_bee_2": {
+      "title": "Bee Breeder",
+      "description": "Buy 2 Bee."
+    },
+    "buy_cow_2": {
+      "title": "Cow Breeder",
+      "description": "Buy 2 Cow."
+    }
+  },
+  "ContractsSection": {
+    "title": "Contracts",
+    "description": "Deliver customer orders for coins and XP.",
+    "empty": "No active contract right now.",
+    "nextIn": "Next contract in {time}.",
+    "deliver": "Deliver",
+    "reward": "Reward",
+    "expires": "Expires in {time}.",
+    "pinned": "Pinned",
+    "pin": "Pin",
+    "unpin": "Unpin",
+    "progress": "{have}/{need}"
+  },
+  "StatsDialog": {
+    "title": "Statistics",
+    "description": "Your farm progress in numbers.",
+    "earned": "Coins earned",
+    "harvested": "Harvests",
+    "collected": "Products collected",
+    "crafted": "Items crafted",
+    "fished": "Fish caught",
+    "contracts": "Contracts fulfilled",
+    "playTime": "Play time"
+  }
+}

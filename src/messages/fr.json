@@ -1,0 +1,1102 @@
+{
+  "App": {
+    "title": "Quinta Magnífica",
+    "description": "Un jeu incrémental d'agriculture, d'élevage et de pêche."
+  },
+  "General": {
+    "error": "Erreur !",
+    "guest": "Invité",
+    "coins": "pièces",
+    "total_coins": "pièces au total",
+    "upgrades": "améliorations"
+  },
+  "GameHeader": {
+    "title": "Ma Ferme",
+    "level": "Niveau",
+    "levelValue": "Niveau : {level}",
+    "xpA11y": "XP {xp} sur {xpToNextLevel}",
+    "export": "Exporter",
+    "import": "Importer",
+    "exportTooltip": "Sauvegarder la progression dans un fichier",
+    "importTooltip": "Charger la progression depuis un fichier",
+    "language": "Langue",
+    "newGame": "Nouveau jeu",
+    "newGameTooltip": "Recommencer (efface la progression)",
+    "newGameConfirm": "Commencer un nouveau jeu ? La progression actuelle sera effacée.",
+    "stats": "Statistiques",
+    "statsTooltip": "Voir les statistiques de la ferme",
+    "mute": "Couper le son",
+    "unmute": "Activer le son"
+  },
+  "HomePage": {
+    "tabs": {
+      "fields": "Champs",
+      "animals": "Animaux",
+      "fishing": "Pêche",
+      "contracts": "Contrats",
+      "inventory": "Inventaire",
+      "recipes": "Recettes"
+    },
+    "loading": "Chargement de votre magnifique ferme...",
+    "levelUp": {
+      "title": "Niveau supérieur !",
+      "description": "Vous avez atteint le niveau {level} ! De nouvelles cultures, des animaux ou des recettes sont peut-être disponibles."
+    },
+    "achievementUnlocked": {
+      "title": "Succès débloqué !",
+      "description": "Vous avez terminé : {achievementTitle}"
+    },
+    "missionReady": {
+      "title": "Mission prête à collecter !",
+      "description": "Vous avez terminé : {missionDescription}"
+    },
+    "missions": {
+      "harvest": "Récoltez {amount} {item} !",
+      "earn": "Gagnez {amount} {item}.",
+      "plant": "Plantez {amount} {item}.",
+      "buy": "Achetez {amount} {item}.",
+      "collect": "Collectez {amount} {item}.",
+      "have": "Accumulez {amount} {item} !",
+      "upgrade": "Faites {amount} {item}.",
+      "craft": "Fabriquez {amount} {item} !"
+    },
+    "errors": {
+      "invalidPlantField": "Identifiant de champ invalide ou état du jeu introuvable.",
+      "cannotPlantDefault": "Pièces insuffisantes, culture invalide ou niveau trop bas.",
+      "levelTooLowForCrop": "Niveau {level} requis pour planter {cropName}.",
+      "insufficientCurrencyForSeeds": "Pièces insuffisantes pour acheter des graines de {cropName}.",
+      "cannotPlantTitle": "Impossible de planter !",
+      "gameStateNotFound": "État du jeu introuvable.",
+      "replantErrorTitle": "Erreur de replantation !",
+      "invalidFieldForReplant": "Champ ou culture invalide pour la replantation.",
+      "cannotReplantDefault": "Pièces insuffisantes, culture invalide ou niveau trop bas pour replanter.",
+      "levelTooLowForReplant": "Niveau {level} requis pour replanter {cropName}.",
+      "insufficientCurrencyForReplant": "Pièces insuffisantes pour les graines de {cropName}.",
+      "cannotReplantTitle": "Impossible de replanter !",
+      "harvestErrorTitle": "Erreur de récolte !",
+      "invalidFieldForHarvest": "Champ ou culture invalide.",
+      "cropNotFound": "Culture introuvable.",
+      "invalidPenId": "Identifiant d'enclos invalide ou état du jeu introuvable.",
+      "cannotBuyAnimalDefault": "Pièces insuffisantes, animal invalide ou niveau trop bas.",
+      "levelTooLowForAnimal": "Niveau {level} requis pour acheter {animalName}.",
+      "insufficientCurrencyForAnimal": "Pièces insuffisantes pour acheter {animalName}.",
+      "cannotBuyAnimalTitle": "Achat impossible !",
+      "collectErrorTitle": "Erreur de collecte !",
+      "invalidPenOrAnimal": "Enclos ou animal invalide.",
+      "animalTypeNotFound": "Type d'animal introuvable ou ne produit pas d'articles régulièrement.",
+      "productNotFound": "Produit animal introuvable.",
+      "butcherFailedTitle": "Échec de l'abattage !",
+      "emptyPen": "Enclos vide ou animal invalide.",
+      "animalNotForMeat": "Cet animal ne produit pas de viande ou données invalides.",
+      "meatProductNotFound": "Produit de viande introuvable dans la configuration.",
+      "sellFailedTitle": "Échec de la vente !",
+      "invalidAmount": "Quantité invalide ou insuffisante dans l'inventaire.",
+      "buyFailedTitle": "Échec de l'achat !",
+      "insufficientCurrencyForField": "Pièces insuffisantes pour acheter un nouveau champ.",
+      "insufficientCurrencyForPen": "Pièces insuffisantes pour acheter un nouvel enclos.",
+      "stateErrorTitle": "Erreur d'état",
+      "upgradeFailedTitle": "Échec de l'amélioration !",
+      "fieldNotFound": "Champ introuvable.",
+      "penNotFound": "Enclos introuvable.",
+      "maxLevelReached": "Ce champ est déjà au niveau maximum.",
+      "insufficientCurrencyForUpgrade": "Pièces insuffisantes. Coût : {cost}",
+      "achievementNotReady": "Succès non prêt à collecter ou déjà collecté.",
+      "craftingErrorTitle": "Erreur de fabrication !",
+      "recipeNotFound": "Recette introuvable.",
+      "levelTooLowTitle": "Niveau trop bas !",
+      "levelTooLowToCraft": "Vous devez être niveau {level} pour fabriquer {recipeName}.",
+      "insufficientIngredientsTitle": "Ingrédients insuffisants !",
+      "insufficientIngredientsToCraft": "Vous n'avez pas tous les ingrédients pour fabriquer {recipeName}.",
+      "noCoinsTitle": "Pas de pièces !",
+      "noCoinsForBait": "Vous avez besoin de {cost} pièces pour acheter des appâts.",
+      "noBaitTitle": "Pas d'appât !",
+      "noBaitDescription": "Achetez plus d'appâts pour pêcher.",
+      "noItemTitle": "Pas d'article !",
+      "noItemToUse": "Vous n'avez pas cet article à utiliser.",
+      "notApplicableTitle": "Non applicable !",
+      "itemNotOnGrowingCrops": "Cet article ne peut être utilisé que sur des cultures en croissance.",
+      "noEffectTitle": "Aucun effet !",
+      "itemHadNoEffect": "L'article n'a pas réduit davantage le temps de croissance."
+    },
+    "plantStarted": {
+      "title": "Plantation lancée !",
+      "description": "{cropName} a été planté dans le champ."
+    },
+    "replantStarted": {
+      "title": "Replantation lancée !",
+      "description": "{cropName} a été replanté dans le champ."
+    },
+    "harvestSuccess": {
+      "title": "Récolte effectuée !",
+      "description": "Vous avez récolté {amount} {itemName} !"
+    },
+    "animalBought": {
+      "title": "Animal acheté !",
+      "description": "Un(e) {animalName} a été ajouté(e) à l'enclos."
+    },
+    "productCollected": {
+      "title": "Produit collecté !",
+      "description": "Vous avez collecté {amount} {productName} !"
+    },
+    "butcherSuccess": {
+      "title": "Animal abattu !",
+      "description": "Vous avez obtenu {amount} {meatName}. L'enclos est vide."
+    },
+    "sellSuccess": {
+      "title": "Vente réussie !",
+      "description": "Vous avez vendu {amount} {itemName} pour {earnings} pièces."
+    },
+    "fieldBought": {
+      "title": "Champ acheté !",
+      "description": "Vous avez acheté un nouveau champ pour votre ferme !"
+    },
+    "penBought": {
+      "title": "Enclos acheté !",
+      "description": "Vous avez acheté un nouvel enclos pour vos animaux !"
+    },
+    "fieldUpgraded": {
+      "title": "Champ amélioré !",
+      "description": "Champ #{fieldId} amélioré au niveau {level}."
+    },
+    "penUpgraded": {
+      "title": "Enclos amélioré !",
+      "description": "Enclos #{penId} amélioré au niveau {level}."
+    },
+    "rewardCollected": {
+      "title": "Récompense collectée !",
+      "description": "Vous avez gagné {reward} pièces et {xp} XP !"
+    },
+    "achievementClaimed": {
+      "title": "Succès revendiqué !",
+      "description": "Vous avez gagné {currency} pièces et {xp} XP pour avoir terminé : {achievementTitle} !"
+    },
+    "itemCrafted": {
+      "title": "Article fabriqué !",
+      "description": "Vous avez fabriqué {quantity} {itemName} ! Vous avez gagné {xp} XP."
+    },
+    "wait": {
+      "title": "Attendez !",
+      "description": "Vous pourrez bientôt collecter de l'eau à nouveau."
+    },
+    "waterCollected": {
+      "title": "Eau collectée !",
+      "description": "Vous avez collecté 1 unité d'eau."
+    },
+    "baitBought": {
+      "title": "Appâts achetés !",
+      "description": "Vous avez acheté {amount} appâts."
+    },
+    "fishingRefreshed": {
+      "title": "Pêche mise à jour !",
+      "description": "De nouveaux poissons ont peut-être apparu sur la grille."
+    },
+    "fishCaught": {
+      "title": "Poisson attrapé !",
+      "description": "Vous avez attrapé un(e) {fishName} ! Vous avez gagné {xp} XP."
+    },
+    "fishMissed": {
+      "title": "Rien n'a mordu !",
+      "description": "L'appât a été perdu."
+    },
+    "consumableUsed": {
+      "title": "{itemName} utilisé !",
+      "description": "{itemName} a accéléré la croissance de {cropName} !"
+    },
+    "save": {
+      "exportTitle": "Progression exportée !",
+      "exportDescription": "Le fichier contenant votre progression a été sauvegardé sur votre ordinateur.",
+      "importTitle": "Progression importée !",
+      "importDescription": "Votre ferme a été chargée depuis le fichier.",
+      "importConfirm": "Importer la progression depuis le fichier ? Cela remplacera votre progression actuelle.",
+      "importInvalidTitle": "Fichier invalide !",
+      "importInvalidDescription": "Le fichier sélectionné ne ressemble pas à une sauvegarde valide de Quinta Magnífica."
+    },
+    "contractArrived": {
+      "title": "Nouveau contrat !",
+      "description": "Un client a passé une commande. Consultez l'onglet Contrats."
+    },
+    "contractFulfilled": {
+      "title": "Contrat rempli !",
+      "description": "+{reward} pièces pour le contrat."
+    }
+  },
+  "FieldCard": {
+    "title": "Champ {id}",
+    "level": "Niv. {level}",
+    "ready": "Prêt !",
+    "harvest": "Récolter",
+    "replant": "Replanter",
+    "plant": "Planter",
+    "upgrade": "Améliorer Niv. {level} ({cost})",
+    "water": "Arroser (−{percent}%)",
+    "switchCrop": "Changer de Culture"
+  },
+  "AnimalPenCard": {
+    "title": "Enclos {id}",
+    "level": "Niv. {level}",
+    "ready": "Prêt !",
+    "collect": "Collecter",
+    "waiting": "En attente...",
+    "producing": "En production...",
+    "buy": "Acheter",
+    "butcher": "Abattre",
+    "butcherConfirm": "Abattre pour {amount} {meat} ?",
+    "switchAnimal": "Changer d'Animal",
+    "upgrade": "Améliorer Niv. {level} ({cost})"
+  },
+  "FieldSection": {
+    "title": "Mes Champs",
+    "buy": "Acheter",
+    "buyAria": "Acheter un nouveau champ"
+  },
+  "AnimalPenSection": {
+    "title": "Mes Enclos",
+    "buy": "Acheter",
+    "buyAria": "Acheter un nouvel enclos"
+  },
+  "FishingSection": {
+    "title": "Zone de Pêche",
+    "description": "Tentez votre chance !",
+    "baitLabel": "Appâts :",
+    "buyBait": "Acheter {amount} appâts ({cost})",
+    "refresh": "Actualiser",
+    "loading": "Chargement...",
+    "cellAria": "Pêcher à la position {row}, {col}",
+    "imageAlt": "Lieu de pêche",
+    "baitImageAlt": "Appât"
+  },
+  "ControlPanel": {
+    "missions": "Missions",
+    "achievements": "Succès",
+    "inventoryTitle": "Inventaire",
+    "inventoryEmpty": "L'inventaire est vide.",
+    "pricePerUnit": "{price} pièces/unité",
+    "quantityPlaceholder": "Qté",
+    "sell": "Vendre",
+    "craftingBench": "Établi de Recettes",
+    "craftingDescription": "Fabriquez de nouveaux articles à partir de votre inventaire. Collectez de l'eau ou fabriquez un arrosoir.",
+    "collectWater": "Collecter de l'Eau",
+    "createWateringCan": "Fabriquer un Arrosoir",
+    "createWateringCanAria": "Fabriquer un Arrosoir",
+    "createOneWateringCan": "Fabriquer 1 Arrosoir",
+    "waterIngredients": "Eau : {needed} (Vous en avez {owned})",
+    "levelRequired": "Niveau {level} requis.",
+    "insufficientIngredients": "Ingrédients insuffisants.",
+    "noRecipesYet": "Aucune recette disponible pour le moment. Continuez à monter de niveau pour en débloquer plus !",
+    "requiresLevel": "Niveau {level} requis.",
+    "minLevel": "Niv. Min : {level}",
+    "ingredients": "Ingrédients :",
+    "ingredientWithStock": "{name} : {quantity} ({owned} en stock)",
+    "craft": "Fabriquer",
+    "craftWithName": "Fabriquer {name}",
+    "eggCombinedName": "Œuf (Poule/Canard)",
+    "milkCombinedName": "Lait (Vache/Chèvre)"
+  },
+  "PlantCropDialog": {
+    "title": "Planter une Culture",
+    "description": "Choisissez une culture à planter dans ce champ. De nouvelles cultures sont débloquées en montant de niveau.",
+    "noCrops": "Aucune culture disponible à votre niveau.",
+    "minLevel": "Niveau Min : {level}",
+    "cost": "Coût : {cost}",
+    "plant": "Planter",
+    "notEnoughCoins": "Pièces insuffisantes",
+    "cancel": "Annuler"
+  },
+  "BuyAnimalDialog": {
+    "title": "Acheter un Animal",
+    "description": "Choisissez un animal pour cet enclos. De nouveaux animaux sont débloqués en montant de niveau.",
+    "noAnimals": "Aucun animal disponible à votre niveau.",
+    "minLevel": "Niveau Min : {level}",
+    "cost": "Coût : {cost}",
+    "buy": "Acheter",
+    "notEnoughCoins": "Pièces insuffisantes",
+    "cancel": "Annuler"
+  },
+  "MissionsDialog": {
+    "title": "Mes Missions",
+    "description": "Terminez des tâches pour gagner des récompenses et de l'XP.",
+    "noActive": "Aucune mission active. De nouvelles missions apparaîtront bientôt !",
+    "progress": "Progression : {current} / {target}",
+    "collect": "Collecter",
+    "claimAll": "Tout récupérer",
+    "close": "Fermer"
+  },
+  "AchievementsDialog": {
+    "title": "Mes Succès",
+    "description": "Des défis pour prouver votre maîtrise de la ferme.",
+    "close": "Fermer",
+    "claimAll": "Tout récupérer"
+  },
+  "AchievementItemCard": {
+    "reward": "Récompense :",
+    "none": "Aucune",
+    "claimed": "Collecté",
+    "collect": "Collecter",
+    "inProgress": "En Cours"
+  },
+  "AchievementsList": {
+    "noneConfigured": "Aucun succès configuré pour le moment.",
+    "errorLoading": "Erreur lors du chargement de la progression de {title}"
+  },
+  "Items": {
+    "lettuce": {
+      "name": "Laitue",
+      "description": "Feuille verte pour les salades."
+    },
+    "wheat": {
+      "name": "Blé",
+      "description": "Grain de base pour la farine et le pain."
+    },
+    "strawberry": {
+      "name": "Fraise",
+      "description": "Fruit rouge, doux et juteux."
+    },
+    "carrot": {
+      "name": "Carotte",
+      "description": "Racine orange, sucrée et croquante."
+    },
+    "tomato": {
+      "name": "Tomate",
+      "description": "Fruit rouge, utilisé dans les salades et les sauces."
+    },
+    "onion": {
+      "name": "Oignon",
+      "description": "Bulbe au goût fort, essentiel en cuisine."
+    },
+    "cucumber": {
+      "name": "Concombre",
+      "description": "Légume rafraîchissant, idéal pour les salades."
+    },
+    "potato": {
+      "name": "Pomme de terre",
+      "description": "Tubercule polyvalent, base de nombreux plats."
+    },
+    "cabbage": {
+      "name": "Chou",
+      "description": "Légume à feuilles vertes, idéal pour les soupes."
+    },
+    "pea": {
+      "name": "Pois",
+      "description": "Petits grains verts en cosse."
+    },
+    "sugarcane": {
+      "name": "Canne à sucre",
+      "description": "Plante haute utilisée pour produire du sucre."
+    },
+    "olive": {
+      "name": "Olive",
+      "description": "Fruit de l'olivier, à manger ou pour l'huile."
+    },
+    "apple": {
+      "name": "Pomme",
+      "description": "Fruit croquant et populaire, disponible en plusieurs couleurs."
+    },
+    "rice": {
+      "name": "Riz",
+      "description": "Grain de base de l'alimentation mondiale."
+    },
+    "basil": {
+      "name": "Basilic",
+      "description": "Herbe aromatique, parfaite pour les plats italiens."
+    },
+    "mushroom": {
+      "name": "Champignon",
+      "description": "Fungi comestible, plusieurs types disponibles."
+    },
+    "bellpepper": {
+      "name": "Poivron",
+      "description": "Légume coloré, doux ou piquant."
+    },
+    "bean": {
+      "name": "Haricot",
+      "description": "Légumineuse nutritive, base de nombreux plats."
+    },
+    "sunflower": {
+      "name": "Tournesol",
+      "description": "Plante à grande fleur jaune, produit des graines."
+    },
+    "grape_crop": {
+      "name": "Raisin",
+      "description": "Petits fruits en grappes, utilisés pour le vin ou la consommation directe."
+    },
+    "blueberry": {
+      "name": "Myrtille",
+      "description": "Petit fruit bleu, riche en antioxydants."
+    },
+    "orange": {
+      "name": "Orange",
+      "description": "Agrume riche en vitamine C."
+    },
+    "pear": {
+      "name": "Poire",
+      "description": "Fruit sucré à la forme caractéristique."
+    },
+    "lemon": {
+      "name": "Citron",
+      "description": "Agrume acide, idéal pour les assaisonnements et les boissons."
+    },
+    "banana": {
+      "name": "Banane",
+      "description": "Fruit jaune et courbé, riche en potassium."
+    },
+    "pumpkin": {
+      "name": "Citrouille",
+      "description": "Gros fruit, populaire en automne."
+    },
+    "eggplant": {
+      "name": "Aubergine",
+      "description": "Légume violet foncé, à la texture spongieuse."
+    },
+    "almond": {
+      "name": "Amande",
+      "description": "Fruit sec, nutritif et savoureux."
+    },
+    "melon": {
+      "name": "Melon",
+      "description": "Gros fruit sucré, très aqueux."
+    },
+    "watermelon": {
+      "name": "Pastèque",
+      "description": "Gros fruit rafraîchissant, parfait pour l'été."
+    },
+    "corn": {
+      "name": "Maïs",
+      "description": "Grains jaunes sucrés qui poussent en épis."
+    },
+    "egg": {
+      "name": "Œuf de Poule",
+      "description": "Œuf frais de poule."
+    },
+    "duck_egg": {
+      "name": "Œuf de Canard",
+      "description": "Œuf frais de canard, un peu plus gros que celui de poule."
+    },
+    "milk": {
+      "name": "Lait de Vache",
+      "description": "Lait frais de vache."
+    },
+    "goat_milk": {
+      "name": "Lait de Chèvre",
+      "description": "Lait frais de chèvre, au goût distinct."
+    },
+    "wool": {
+      "name": "Laine",
+      "description": "Laine douce de mouton, pour les vêtements."
+    },
+    "honey": {
+      "name": "Miel",
+      "description": "Miel sucré produit par les abeilles."
+    },
+    "sunflower_seeds": {
+      "name": "Graines de Tournesol",
+      "description": "Graines nutritives de tournesol."
+    },
+    "sugar": {
+      "name": "Sucre",
+      "description": "Sucre raffiné, pour sucrer."
+    },
+    "chicken_meat": {
+      "name": "Viande de Poulet",
+      "description": "Viande de poulet fraîche."
+    },
+    "duck_meat": {
+      "name": "Viande de Canard",
+      "description": "Viande de canard savoureuse."
+    },
+    "beef_meat": {
+      "name": "Bœuf",
+      "description": "Bœuf de premier choix."
+    },
+    "pork_meat": {
+      "name": "Porc",
+      "description": "Porc frais."
+    },
+    "mutton_meat": {
+      "name": "Agneau",
+      "description": "Viande d'agneau tendre."
+    },
+    "goat_meat_product": {
+      "name": "Viande de Chèvre",
+      "description": "Viande de chèvre au goût caractéristique."
+    },
+    "rabbit_meat": {
+      "name": "Viande de Lapin",
+      "description": "Viande de lapin maigre."
+    },
+    "turkey_meat": {
+      "name": "Viande de Dinde",
+      "description": "Viande de dinde tendre."
+    },
+    "chicken": {
+      "name": "Poule"
+    },
+    "duck": {
+      "name": "Canard"
+    },
+    "rabbit": {
+      "name": "Lapin"
+    },
+    "sheep": {
+      "name": "Mouton"
+    },
+    "turkey": {
+      "name": "Dinde"
+    },
+    "pig": {
+      "name": "Cochon"
+    },
+    "goat": {
+      "name": "Chèvre"
+    },
+    "bee": {
+      "name": "Abeille"
+    },
+    "cow": {
+      "name": "Vache"
+    },
+    "flour": {
+      "name": "Farine de Blé",
+      "description": "Farine de blé moulu, base de nombreuses recettes."
+    },
+    "omelette": {
+      "name": "Omelette",
+      "description": "Une simple omelette faite avec des œufs frais de la ferme."
+    },
+    "watering_can": {
+      "name": "Arrosoir",
+      "description": "Un arrosoir qui accélère la croissance d'une culture de 25 %."
+    },
+    "dough": {
+      "name": "Pâte Fraîche",
+      "description": "Pâte fraîche faite avec de la farine et de l'eau, prête à cuisiner."
+    },
+    "bread": {
+      "name": "Pain",
+      "description": "Un pain rustique fait avec de la farine de la ferme."
+    },
+    "vegetable_soup": {
+      "name": "Soupe de Légumes",
+      "description": "Une soupe chaude et réconfortante."
+    },
+    "orange_juice": {
+      "name": "Jus d'Orange",
+      "description": "Jus d'orange frais et naturel."
+    },
+    "strawberry_compote": {
+      "name": "Compote de Fraises",
+      "description": "Compote maison sucrée de fraises fraîches."
+    },
+    "carrot_cake": {
+      "name": "Gâteau à la Carotte",
+      "description": "Un gâteau moelleux à la carotte."
+    },
+    "blueberry_juice": {
+      "name": "Jus de Myrtille",
+      "description": "Un jus antioxydant et délicieux."
+    },
+    "blueberry_compote": {
+      "name": "Compote de Myrtilles",
+      "description": "Une compote sucrée et riche en myrtilles."
+    },
+    "mixed_salad": {
+      "name": "Salade",
+      "description": "Une salade colorée et nutritive avec des légumes frais."
+    },
+    "apple_pie": {
+      "name": "Tarte aux Pommes",
+      "description": "Une tarte aux pommes maison et délicieuse."
+    },
+    "cod_with_potatoes": {
+      "name": "Cabillaud Rôti aux Pommes de Terre",
+      "description": "Cabillaud rôti bien juteux avec des pommes de terre."
+    },
+    "grilled_sardine_meal": {
+      "name": "Sardine Grillée",
+      "description": "Sardine grillée servie avec des pommes de terre et une salade."
+    },
+    "duck_rice": {
+      "name": "Riz de Canard",
+      "description": "Un plat classique savoureux et réconfortant."
+    },
+    "bean_stew": {
+      "name": "Cassoulet",
+      "description": "Un cassoulet riche et savoureux."
+    },
+    "cheese": {
+      "name": "Fromage",
+      "description": "Fromage frais fait avec le lait de la ferme."
+    },
+    "pancake": {
+      "name": "Crêpe",
+      "description": "Des crêpes moelleuses, parfaites pour le petit-déjeuner."
+    },
+    "goat_cheese_honey_toast": {
+      "name": "Tartine au Fromage de Chèvre et Miel",
+      "description": "Une tartine croustillante avec du fromage de chèvre crémeux et un filet de miel."
+    },
+    "churrasco": {
+      "name": "Barbecue",
+      "description": "Une sélection généreuse de viandes grillées, de pommes de terre et de salade."
+    },
+    "almond_cake": {
+      "name": "Gâteau aux Amandes",
+      "description": "Gâteau moelleux et savoureux aux amandes."
+    },
+    "pizza_margarita": {
+      "name": "Pizza Margherita",
+      "description": "Pizza classique avec tomate, fromage et basilic."
+    },
+    "pumpkin_pie": {
+      "name": "Tarte à la Citrouille",
+      "description": "Tarte classique à la citrouille avec des épices."
+    },
+    "melon_juice": {
+      "name": "Jus de Melon",
+      "description": "Jus de melon rafraîchissant."
+    },
+    "stuffed_eggplant": {
+      "name": "Aubergine Farcie",
+      "description": "Aubergine farcie de viande et de légumes."
+    },
+    "watermelon_juice": {
+      "name": "Jus de Pastèque",
+      "description": "Jus sucré et hydratant de pastèque."
+    },
+    "fruit_salad": {
+      "name": "Salade de Fruits",
+      "description": "Une salade de fruits rafraîchissante et saine."
+    },
+    "pasta_tomato_basil": {
+      "name": "Pâtes à la Tomate et au Basilic",
+      "description": "Un plat italien classique avec des ingrédients frais de la ferme."
+    },
+    "olive_oil": {
+      "name": "Huile d'Olive",
+      "description": "Huile d'olive extra vierge, pressée à partir d'olives fraîches."
+    },
+    "rabbit_stew": {
+      "name": "Civet de Lapin",
+      "description": "Un civet riche et réconfortant à la viande de lapin."
+    },
+    "turkey_roast": {
+      "name": "Dinde Rôtie",
+      "description": "Dinde rôtie succulente aux pommes de terre, un festin de fête."
+    },
+    "water": {
+      "name": "Eau",
+      "description": "Eau fraîche et pure, essentielle pour certaines recettes."
+    },
+    "fishing_bait": {
+      "name": "Appât de Pêche",
+      "description": "Utilisé pour attirer les poissons dans la zone de pêche."
+    },
+    "sardine": {
+      "name": "Sardine",
+      "description": "Petit poisson commun."
+    },
+    "seabass": {
+      "name": "Bar",
+      "description": "Poisson savoureux, un peu plus difficile à attraper."
+    },
+    "cod": {
+      "name": "Cabillaud",
+      "description": "Poisson précieux, trouvé dans les eaux plus profondes."
+    },
+    "salmon": {
+      "name": "Saumon",
+      "description": "Poisson rosé et délicieux, idéal pour le grill."
+    },
+    "tuna": {
+      "name": "Thon",
+      "description": "Gros poisson charnu, excellent en steaks."
+    },
+    "recipe_watering_can": {
+      "name": "Arrosoir",
+      "description": "Fabrique un arrosoir."
+    },
+    "recipe_flour": {
+      "name": "Farine",
+      "description": "Transformez le blé en farine."
+    },
+    "recipe_omelette": {
+      "name": "Omelette",
+      "description": "Une simple omelette faite avec des œufs frais de la ferme."
+    },
+    "recipe_dough": {
+      "name": "Pâte Fraîche",
+      "description": "Préparez de la pâte fraîche avec de la farine et de l'eau."
+    },
+    "recipe_bread": {
+      "name": "Pain",
+      "description": "Fabriquez un délicieux pain avec de la farine."
+    },
+    "recipe_vegetable_soup": {
+      "name": "Soupe de Légumes",
+      "description": "Une soupe chaude et réconfortante."
+    },
+    "recipe_orange_juice": {
+      "name": "Jus d'Orange",
+      "description": "Pressez des oranges pour un jus délicieux."
+    },
+    "recipe_strawberry_compote": {
+      "name": "Compote de Fraises",
+      "description": "Préparez une compote bien sucrée."
+    },
+    "recipe_carrot_cake": {
+      "name": "Gâteau à la Carotte",
+      "description": "Préparez un gâteau à la carotte moelleux et savoureux."
+    },
+    "recipe_blueberry_juice": {
+      "name": "Jus de Myrtille",
+      "description": "Pressez des myrtilles pour un jus rafraîchissant."
+    },
+    "recipe_blueberry_compote": {
+      "name": "Compote de Myrtilles",
+      "description": "Une compote sucrée et riche en myrtilles."
+    },
+    "recipe_mixed_salad": {
+      "name": "Salade",
+      "description": "Une salade colorée et nutritive avec des légumes frais."
+    },
+    "recipe_apple_pie": {
+      "name": "Tarte aux Pommes",
+      "description": "Faites cuire une tarte aux pommes avec des ingrédients frais."
+    },
+    "recipe_cod_with_potatoes": {
+      "name": "Cabillaud Rôti aux Pommes de Terre",
+      "description": "Cabillaud rôti juteux avec des pommes de terre."
+    },
+    "recipe_grilled_sardine_meal": {
+      "name": "Sardine Grillée",
+      "description": "Sardine grillée servie avec des pommes de terre et une salade."
+    },
+    "recipe_duck_rice": {
+      "name": "Riz de Canard",
+      "description": "Cuisinez un délicieux riz de canard."
+    },
+    "recipe_bean_stew": {
+      "name": "Cassoulet",
+      "description": "Cuisinez un cassoulet savoureux et nutritif."
+    },
+    "recipe_pancake": {
+      "name": "Crêpe",
+      "description": "Des crêpes moelleuses, parfaites pour le petit-déjeuner."
+    },
+    "recipe_cheese": {
+      "name": "Fromage",
+      "description": "Transformez le lait frais en délicieux fromage."
+    },
+    "recipe_churrasco": {
+      "name": "Barbecue",
+      "description": "Préparez un barbecue complet avec plusieurs viandes, pommes de terre et salade."
+    },
+    "recipe_goat_cheese_honey_toast": {
+      "name": "Tartine au Fromage de Chèvre et Miel",
+      "description": "Préparez une délicieuse tartine au fromage de chèvre et au miel."
+    },
+    "recipe_almond_cake": {
+      "name": "Gâteau aux Amandes",
+      "description": "Gâteau moelleux et savoureux aux amandes."
+    },
+    "recipe_pizza_margarita": {
+      "name": "Pizza Margherita",
+      "description": "Faites une pizza classique et délicieuse."
+    },
+    "recipe_pumpkin_pie": {
+      "name": "Tarte à la Citrouille",
+      "description": "Tarte classique à la citrouille avec des épices."
+    },
+    "recipe_melon_juice": {
+      "name": "Jus de Melon",
+      "description": "Jus rafraîchissant de melon."
+    },
+    "recipe_stuffed_eggplant": {
+      "name": "Aubergine Farcie",
+      "description": "Aubergine farcie de viande et de légumes."
+    },
+    "recipe_watermelon_juice": {
+      "name": "Jus de Pastèque",
+      "description": "Jus sucré et hydratant de pastèque."
+    },
+    "recipe_fruit_salad": {
+      "name": "Salade de Fruits",
+      "description": "Créez une délicieuse et rafraîchissante salade de fruits."
+    },
+    "recipe_pasta_tomato_basil": {
+      "name": "Pâtes à la Tomate et au Basilic",
+      "description": "Préparez un délicieux plat de pâtes à la tomate et au basilic."
+    },
+    "recipe_olive_oil": {
+      "name": "Huile d'Olive",
+      "description": "Pressez des olives pour obtenir de l'huile d'olive pure."
+    },
+    "recipe_rabbit_stew": {
+      "name": "Civet de Lapin",
+      "description": "Cuisinez un civet riche avec de la viande de lapin et des légumes."
+    },
+    "recipe_turkey_roast": {
+      "name": "Dinde Rôtie",
+      "description": "Rôtissez une dinde entière aux pommes de terre pour un festin."
+    },
+    "reach_level_10": {
+      "title": "Fermier Expérimenté",
+      "description": "Atteignez le niveau 10."
+    },
+    "reach_level_25": {
+      "title": "Fermier Maître",
+      "description": "Atteignez le niveau 25."
+    },
+    "reach_level_40": {
+      "title": "Fermier Légendaire",
+      "description": "Atteignez le niveau 40."
+    },
+    "complete_missions_20": {
+      "title": "Aide de la Communauté",
+      "description": "Terminez 20 missions."
+    },
+    "complete_missions_75": {
+      "title": "Héros Local",
+      "description": "Terminez 75 missions."
+    },
+    "complete_missions_150": {
+      "title": "Pilier de la Communauté",
+      "description": "Terminez 150 missions."
+    },
+    "earn_currency_50k": {
+      "title": "Petit Investisseur",
+      "description": "Gagnez un total de 50 000 pièces."
+    },
+    "earn_currency_750k": {
+      "title": "Magnat de la Ferme",
+      "description": "Gagnez un total de 750 000 pièces."
+    },
+    "earn_currency_1m": {
+      "title": "Fermier Millionnaire",
+      "description": "Accumulez un total de 1 000 000 pièces."
+    },
+    "own_fields_10": {
+      "title": "Expansion Agricole",
+      "description": "Possédez 10 champs."
+    },
+    "own_fields_15": {
+      "title": "Empire Agricole",
+      "description": "Possédez 15 champs."
+    },
+    "own_pens_10": {
+      "title": "Amoureux des Animaux",
+      "description": "Possédez 10 enclos."
+    },
+    "own_pens_15": {
+      "title": "Paradis Animal",
+      "description": "Possédez 15 enclos."
+    },
+    "upgrade_buildings_20": {
+      "title": "Maître Bâtisseur",
+      "description": "Améliorez des champs ou des enclos 20 fois."
+    },
+    "upgrade_buildings_40": {
+      "title": "Maître Architecte",
+      "description": "Améliorez des champs ou des enclos 40 fois au total."
+    },
+    "collect_eggs_300": {
+      "title": "Omelette Géante",
+      "description": "Collectez 300 Œufs de Poule."
+    },
+    "collect_total_1000": {
+      "title": "Ami des Animaux (Produits)",
+      "description": "Collectez un total de 1000 produits animaux."
+    },
+    "harvest_total_2000": {
+      "title": "Main Verte",
+      "description": "Récoltez un total de 2000 cultures."
+    },
+    "craft_items_total_200": {
+      "title": "Maître Cuisinier",
+      "description": "Fabriquez un total de 200 articles à l'établi de recettes."
+    },
+    "harvest_lettuce_100": {
+      "title": "Maître de la Laitue",
+      "description": "Récoltez 100 Laitues."
+    },
+    "harvest_wheat_100": {
+      "title": "Maître du Blé",
+      "description": "Récoltez 100 Blés."
+    },
+    "harvest_strawberry_100": {
+      "title": "Maître de la Fraise",
+      "description": "Récoltez 100 Fraises."
+    },
+    "harvest_carrot_100": {
+      "title": "Maître de la Carotte",
+      "description": "Récoltez 100 Carottes."
+    },
+    "harvest_tomato_100": {
+      "title": "Maître de la Tomate",
+      "description": "Récoltez 100 Tomates."
+    },
+    "harvest_onion_100": {
+      "title": "Maître de l'Oignon",
+      "description": "Récoltez 100 Oignons."
+    },
+    "harvest_cucumber_100": {
+      "title": "Maître du Concombre",
+      "description": "Récoltez 100 Concombres."
+    },
+    "harvest_potato_100": {
+      "title": "Maître de la Pomme de Terre",
+      "description": "Récoltez 100 Pommes de Terre."
+    },
+    "harvest_cabbage_100": {
+      "title": "Maître du Chou",
+      "description": "Récoltez 100 Choux."
+    },
+    "harvest_pea_100": {
+      "title": "Maître du Pois",
+      "description": "Récoltez 100 Pois."
+    },
+    "harvest_sugarcane_100": {
+      "title": "Maître de la Canne à Sucre",
+      "description": "Récoltez 100 Canne à Sucre."
+    },
+    "harvest_olive_100": {
+      "title": "Maître de l'Olive",
+      "description": "Récoltez 100 Olives."
+    },
+    "harvest_apple_100": {
+      "title": "Maître de la Pomme",
+      "description": "Récoltez 100 Pommes."
+    },
+    "harvest_rice_100": {
+      "title": "Maître du Riz",
+      "description": "Récoltez 100 Riz."
+    },
+    "harvest_basil_100": {
+      "title": "Maître du Basilic",
+      "description": "Récoltez 100 Basilic."
+    },
+    "harvest_mushroom_100": {
+      "title": "Maître du Champignon",
+      "description": "Récoltez 100 Champignons."
+    },
+    "harvest_bellpepper_100": {
+      "title": "Maître du Poivron",
+      "description": "Récoltez 100 Poivrons."
+    },
+    "harvest_bean_100": {
+      "title": "Maître du Haricot",
+      "description": "Récoltez 100 Haricots."
+    },
+    "harvest_sunflower_100": {
+      "title": "Maître du Tournesol",
+      "description": "Récoltez 100 Tournesols."
+    },
+    "harvest_grape_crop_100": {
+      "title": "Maître du Raisin",
+      "description": "Récoltez 100 Raisins."
+    },
+    "harvest_blueberry_100": {
+      "title": "Maître de la Myrtille",
+      "description": "Récoltez 100 Myrtilles."
+    },
+    "harvest_orange_100": {
+      "title": "Maître de l'Orange",
+      "description": "Récoltez 100 Oranges."
+    },
+    "harvest_pear_100": {
+      "title": "Maître de la Poire",
+      "description": "Récoltez 100 Poires."
+    },
+    "harvest_lemon_100": {
+      "title": "Maître du Citron",
+      "description": "Récoltez 100 Citrons."
+    },
+    "harvest_banana_100": {
+      "title": "Maître de la Banane",
+      "description": "Récoltez 100 Bananes."
+    },
+    "harvest_pumpkin_100": {
+      "title": "Maître de la Citrouille",
+      "description": "Récoltez 100 Citrouilles."
+    },
+    "harvest_eggplant_100": {
+      "title": "Maître de l'Aubergine",
+      "description": "Récoltez 100 Aubergines."
+    },
+    "harvest_almond_100": {
+      "title": "Maître de l'Amande",
+      "description": "Récoltez 100 Amandes."
+    },
+    "harvest_melon_100": {
+      "title": "Maître du Melon",
+      "description": "Récoltez 100 Melons."
+    },
+    "harvest_watermelon_100": {
+      "title": "Maître de la Pastèque",
+      "description": "Récoltez 100 Pastèques."
+    },
+    "harvest_corn_100": {
+      "title": "Maître du Maïs",
+      "description": "Récoltez 100 Maïs."
+    },
+    "buy_chicken_2": {
+      "title": "Éleveur de Poules",
+      "description": "Achetez 2 Poules."
+    },
+    "buy_duck_2": {
+      "title": "Éleveur de Canards",
+      "description": "Achetez 2 Canards."
+    },
+    "buy_rabbit_2": {
+      "title": "Éleveur de Lapins",
+      "description": "Achetez 2 Lapins."
+    },
+    "buy_sheep_2": {
+      "title": "Éleveur de Moutons",
+      "description": "Achetez 2 Moutons."
+    },
+    "buy_turkey_2": {
+      "title": "Éleveur de Dindes",
+      "description": "Achetez 2 Dindes."
+    },
+    "buy_pig_2": {
+      "title": "Éleveur de Cochons",
+      "description": "Achetez 2 Cochons."
+    },
+    "buy_goat_2": {
+      "title": "Éleveur de Chèvres",
+      "description": "Achetez 2 Chèvres."
+    },
+    "buy_bee_2": {
+      "title": "Éleveur d'Abeilles",
+      "description": "Achetez 2 Abeilles."
+    },
+    "buy_cow_2": {
+      "title": "Éleveur de Vaches",
+      "description": "Achetez 2 Vaches."
+    }
+  },
+  "ContractsSection": {
+    "title": "Contrats",
+    "description": "Livrez les commandes des clients contre pièces et XP.",
+    "empty": "Aucun contrat actif pour le moment.",
+    "nextIn": "Prochain contrat dans {time}.",
+    "deliver": "Livrer",
+    "reward": "Récompense",
+    "expires": "Expire dans {time}.",
+    "pinned": "Épinglé",
+    "pin": "Épingler",
+    "unpin": "Désépingler",
+    "progress": "{have}/{need}"
+  },
+  "StatsDialog": {
+    "title": "Statistiques",
+    "description": "La progression de votre ferme en chiffres.",
+    "earned": "Pièces gagnées",
+    "harvested": "Récoltes",
+    "collected": "Produits collectés",
+    "crafted": "Objets fabriqués",
+    "fished": "Poissons capturés",
+    "contracts": "Contrats remplis",
+    "playTime": "Temps de jeu"
+  }
+}

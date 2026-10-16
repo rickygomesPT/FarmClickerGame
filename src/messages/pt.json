@@ -1,0 +1,1102 @@
+{
+  "App": {
+    "title": "Quinta Magnífica",
+    "description": "Um jogo incremental de agricultura, criação de animais e pesca."
+  },
+  "General": {
+    "error": "Erro!",
+    "guest": "Convidado",
+    "coins": "moedas",
+    "total_coins": "moedas totais",
+    "upgrades": "melhorias"
+  },
+  "GameHeader": {
+    "title": "A Minha Quinta",
+    "level": "Nível",
+    "levelValue": "Nível: {level}",
+    "xpA11y": "XP {xp} de {xpToNextLevel}",
+    "export": "Exportar",
+    "import": "Importar",
+    "exportTooltip": "Guardar o progresso num ficheiro",
+    "importTooltip": "Carregar progresso de um ficheiro",
+    "language": "Idioma",
+    "newGame": "Novo jogo",
+    "newGameTooltip": "Começar de novo (apaga o progresso)",
+    "newGameConfirm": "Começar um jogo novo? O progresso atual será apagado.",
+    "stats": "Estatísticas",
+    "statsTooltip": "Ver estatísticas da quinta",
+    "mute": "Silenciar",
+    "unmute": "Ativar som"
+  },
+  "HomePage": {
+    "tabs": {
+      "fields": "Campos",
+      "animals": "Animais",
+      "fishing": "Pesca",
+      "contracts": "Contratos",
+      "inventory": "Inventário",
+      "recipes": "Receitas"
+    },
+    "loading": "A carregar a sua quinta magnífica...",
+    "levelUp": {
+      "title": "Subiu de Nível!",
+      "description": "Você alcançou o nível {level}! Novas culturas, animais ou receitas podem estar disponíveis."
+    },
+    "achievementUnlocked": {
+      "title": "Conquista Desbloqueada!",
+      "description": "Você completou: {achievementTitle}"
+    },
+    "missionReady": {
+      "title": "Missão Pronta Para Coleta!",
+      "description": "Você completou: {missionDescription}"
+    },
+    "missions": {
+      "harvest": "Colha {amount} {item}!",
+      "earn": "Ganhe {amount} {item}.",
+      "plant": "Plante {amount} {item}.",
+      "buy": "Compre {amount} {item}.",
+      "collect": "Colete {amount} {item}.",
+      "have": "Acumule {amount} {item}!",
+      "upgrade": "Faça {amount} {item}.",
+      "craft": "Crie {amount} {item}!"
+    },
+    "errors": {
+      "invalidPlantField": "ID do campo de plantio inválido ou estado do jogo não encontrado.",
+      "cannotPlantDefault": "Moedas insuficientes, cultura inválida ou nível baixo.",
+      "levelTooLowForCrop": "Nível {level} necessário para plantar {cropName}.",
+      "insufficientCurrencyForSeeds": "Moedas insuficientes para comprar sementes de {cropName}.",
+      "cannotPlantTitle": "Não é possível plantar!",
+      "gameStateNotFound": "Estado do jogo não encontrado.",
+      "replantErrorTitle": "Erro ao Replantar!",
+      "invalidFieldForReplant": "Campo ou cultura inválidos para replantio.",
+      "cannotReplantDefault": "Moedas insuficientes, cultura inválida ou nível baixo para replantar.",
+      "levelTooLowForReplant": "Nível {level} necessário para replantar {cropName}.",
+      "insufficientCurrencyForReplant": "Moedas insuficientes para sementes de {cropName}.",
+      "cannotReplantTitle": "Não é possível replantar!",
+      "harvestErrorTitle": "Erro de Colheita!",
+      "invalidFieldForHarvest": "Campo ou cultura inválidos.",
+      "cropNotFound": "Cultura não encontrada.",
+      "invalidPenId": "ID do curral inválido ou estado do jogo não encontrado.",
+      "cannotBuyAnimalDefault": "Moedas insuficientes, animal inválido ou nível baixo.",
+      "levelTooLowForAnimal": "Nível {level} necessário para comprar {animalName}.",
+      "insufficientCurrencyForAnimal": "Moedas insuficientes para comprar {animalName}.",
+      "cannotBuyAnimalTitle": "Não é possível comprar!",
+      "collectErrorTitle": "Erro de Coleta!",
+      "invalidPenOrAnimal": "Curral ou animal inválidos.",
+      "animalTypeNotFound": "Tipo de animal não encontrado ou não produz item regularmente.",
+      "productNotFound": "Produto animal não encontrado.",
+      "butcherFailedTitle": "Abate Falhou!",
+      "emptyPen": "Curral vazio ou animal inválido.",
+      "animalNotForMeat": "Este animal não produz carne ou dados inválidos.",
+      "meatProductNotFound": "Produto de carne não encontrado na configuração.",
+      "sellFailedTitle": "Venda Falhou!",
+      "invalidAmount": "Quantidade inválida ou insuficiente no inventário.",
+      "buyFailedTitle": "Compra Falhou!",
+      "insufficientCurrencyForField": "Moedas insuficientes para comprar um novo campo.",
+      "insufficientCurrencyForPen": "Moedas insuficientes para comprar um novo curral.",
+      "stateErrorTitle": "Erro de Estado",
+      "upgradeFailedTitle": "Melhoria Falhou!",
+      "fieldNotFound": "Campo não encontrado.",
+      "penNotFound": "Curral não encontrado.",
+      "maxLevelReached": "Este campo já está no nível máximo.",
+      "insufficientCurrencyForUpgrade": "Moedas insuficientes. Custo: {cost}",
+      "achievementNotReady": "Conquista não pronta para coleta ou já coletada.",
+      "craftingErrorTitle": "Erro de Crafting!",
+      "recipeNotFound": "Receita não encontrada.",
+      "levelTooLowTitle": "Nível Baixo!",
+      "levelTooLowToCraft": "Você precisa ser nível {level} para criar {recipeName}.",
+      "insufficientIngredientsTitle": "Ingredientes Insuficientes!",
+      "insufficientIngredientsToCraft": "Você não tem todos os ingredientes para criar {recipeName}.",
+      "noCoinsTitle": "Sem Moedas!",
+      "noCoinsForBait": "Precisa de {cost} moedas para comprar iscas.",
+      "noBaitTitle": "Sem Isca!",
+      "noBaitDescription": "Compre mais iscas para pescar.",
+      "noItemTitle": "Sem Item!",
+      "noItemToUse": "Você não possui este item para usar.",
+      "notApplicableTitle": "Não Aplicável!",
+      "itemNotOnGrowingCrops": "Este item só pode ser usado em culturas em crescimento.",
+      "noEffectTitle": "Sem Efeito!",
+      "itemHadNoEffect": "O item não reduziu mais o tempo de crescimento."
+    },
+    "plantStarted": {
+      "title": "Plantação Iniciada!",
+      "description": "{cropName} foi plantado no campo."
+    },
+    "replantStarted": {
+      "title": "Replantio Iniciado!",
+      "description": "{cropName} foi replantado(a) no campo."
+    },
+    "harvestSuccess": {
+      "title": "Colheita Realizada!",
+      "description": "Você colheu {amount} {itemName}!"
+    },
+    "animalBought": {
+      "title": "Animal Comprado!",
+      "description": "Um(a) {animalName} foi adicionado(a) ao curral."
+    },
+    "productCollected": {
+      "title": "Produto Coletado!",
+      "description": "Você coletou {amount} {productName}!"
+    },
+    "butcherSuccess": {
+      "title": "Animal Abatido!",
+      "description": "Você obteve {amount} {meatName}. O curral está vazio."
+    },
+    "sellSuccess": {
+      "title": "Venda Bem Sucedida!",
+      "description": "Você vendeu {amount} {itemName} por {earnings} moedas."
+    },
+    "fieldBought": {
+      "title": "Campo Comprado!",
+      "description": "Você comprou um novo campo para sua quinta!"
+    },
+    "penBought": {
+      "title": "Curral Comprado!",
+      "description": "Você comprou um novo curral para seus animais!"
+    },
+    "fieldUpgraded": {
+      "title": "Campo Melhorado!",
+      "description": "Campo #{fieldId} melhorado para nível {level}."
+    },
+    "penUpgraded": {
+      "title": "Curral Melhorado!",
+      "description": "Curral #{penId} melhorado para nível {level}."
+    },
+    "rewardCollected": {
+      "title": "Recompensa Coletada!",
+      "description": "Você ganhou {reward} moedas e {xp} XP!"
+    },
+    "achievementClaimed": {
+      "title": "Conquista Reivindicada!",
+      "description": "Você ganhou {currency} moedas e {xp} XP por completar: {achievementTitle}!"
+    },
+    "itemCrafted": {
+      "title": "Item Criado!",
+      "description": "Você criou {quantity} {itemName}! Ganhou {xp} XP."
+    },
+    "wait": {
+      "title": "Aguarde!",
+      "description": "Pode coletar água novamente em breve."
+    },
+    "waterCollected": {
+      "title": "Água Coletada!",
+      "description": "Você coletou 1 unidade de água."
+    },
+    "baitBought": {
+      "title": "Iscas Compradas!",
+      "description": "Você comprou {amount} iscas."
+    },
+    "fishingRefreshed": {
+      "title": "Pesca Atualizada!",
+      "description": "Novos peixes podem ter aparecido na grelha."
+    },
+    "fishCaught": {
+      "title": "Pescado!",
+      "description": "Você pescou um(a) {fishName}! Ganhou {xp} XP."
+    },
+    "fishMissed": {
+      "title": "Nada Mordeu!",
+      "description": "A isca foi perdida."
+    },
+    "consumableUsed": {
+      "title": "{itemName} Usado!",
+      "description": "{itemName} acelerou o crescimento de {cropName}!"
+    },
+    "save": {
+      "exportTitle": "Progresso Exportado!",
+      "exportDescription": "O ficheiro com o seu progresso foi guardado no seu computador.",
+      "importTitle": "Progresso Importado!",
+      "importDescription": "A sua quinta foi carregada a partir do ficheiro.",
+      "importConfirm": "Importar o progresso do ficheiro? Isto irá substituir o seu progresso atual.",
+      "importInvalidTitle": "Ficheiro Inválido!",
+      "importInvalidDescription": "O ficheiro selecionado não parece ser um save válido da Quinta Magnífica."
+    },
+    "contractArrived": {
+      "title": "Novo contrato!",
+      "description": "Um cliente fez uma encomenda. Vê o separador Contratos."
+    },
+    "contractFulfilled": {
+      "title": "Contrato cumprido!",
+      "description": "+{reward} moedas pelo contrato."
+    }
+  },
+  "FieldCard": {
+    "title": "Campo {id}",
+    "level": "Nív. {level}",
+    "ready": "Pronto!",
+    "harvest": "Colher",
+    "replant": "Replantar",
+    "plant": "Plantar",
+    "upgrade": "Upgrade Nív. {level} ({cost})",
+    "water": "Regar (−{percent}%)",
+    "switchCrop": "Trocar Cultura"
+  },
+  "AnimalPenCard": {
+    "title": "Curral {id}",
+    "level": "Nív. {level}",
+    "ready": "Pronto!",
+    "collect": "Coletar",
+    "waiting": "Aguardando...",
+    "producing": "Produzindo...",
+    "buy": "Comprar",
+    "butcher": "Abater",
+    "butcherConfirm": "Abater e receber {amount} {meat}?",
+    "switchAnimal": "Trocar Animal",
+    "upgrade": "Upgrade Nív. {level} ({cost})"
+  },
+  "FieldSection": {
+    "title": "Meus Campos",
+    "buy": "Comprar",
+    "buyAria": "Comprar novo campo"
+  },
+  "AnimalPenSection": {
+    "title": "Meus Currais",
+    "buy": "Comprar",
+    "buyAria": "Comprar novo curral"
+  },
+  "FishingSection": {
+    "title": "Zona de Pesca",
+    "description": "Tente a sua sorte!",
+    "baitLabel": "Iscas:",
+    "buyBait": "Comprar {amount} iscas ({cost})",
+    "refresh": "Refrescar",
+    "loading": "Carregando...",
+    "cellAria": "Pescar na posição {row}, {col}",
+    "imageAlt": "Ponto de pesca",
+    "baitImageAlt": "Isca"
+  },
+  "ControlPanel": {
+    "missions": "Missões",
+    "achievements": "Conquistas",
+    "inventoryTitle": "Inventário",
+    "inventoryEmpty": "Inventário vazio.",
+    "pricePerUnit": "{price} moedas/unid",
+    "quantityPlaceholder": "Qtd",
+    "sell": "Vender",
+    "craftingBench": "Bancada de Receitas",
+    "craftingDescription": "Crie novos itens a partir do seu inventário. Colete água ou crie um regador.",
+    "collectWater": "Coletar Água",
+    "createWateringCan": "Criar Regador",
+    "createWateringCanAria": "Criar Regador",
+    "createOneWateringCan": "Criar 1 Regador",
+    "waterIngredients": "Água: {needed} (Tem {owned})",
+    "levelRequired": "Nível {level} necessário.",
+    "insufficientIngredients": "Ingredientes insuficientes.",
+    "noRecipesYet": "Nenhuma receita disponível ainda. Continue a subir de nível para desbloquear!",
+    "requiresLevel": "Requer nível {level}.",
+    "minLevel": "Nív. Mín: {level}",
+    "ingredients": "Ingredientes:",
+    "ingredientWithStock": "{name}: {quantity} ({owned} estoque)",
+    "craft": "Criar",
+    "craftWithName": "Criar {name}",
+    "eggCombinedName": "Ovo (Galinha/Pato)",
+    "milkCombinedName": "Leite (Vaca/Cabra)"
+  },
+  "PlantCropDialog": {
+    "title": "Plantar Cultura",
+    "description": "Escolha uma cultura para plantar neste campo. Novas culturas são desbloqueadas ao subir de nível.",
+    "noCrops": "Nenhuma cultura disponível no seu nível.",
+    "minLevel": "Nível Mín: {level}",
+    "cost": "Custo: {cost}",
+    "plant": "Plantar",
+    "notEnoughCoins": "Moedas insuficientes",
+    "cancel": "Cancelar"
+  },
+  "BuyAnimalDialog": {
+    "title": "Comprar Animal",
+    "description": "Escolha um animal para este curral. Novos animais são desbloqueados ao subir de nível.",
+    "noAnimals": "Nenhum animal disponível no seu nível.",
+    "minLevel": "Nível Mín: {level}",
+    "cost": "Custo: {cost}",
+    "buy": "Comprar",
+    "notEnoughCoins": "Moedas insuficientes",
+    "cancel": "Cancelar"
+  },
+  "MissionsDialog": {
+    "title": "Minhas Missões",
+    "description": "Complete tarefas para ganhar recompensas e XP.",
+    "noActive": "Nenhuma missão ativa. Novas missões aparecerão em breve!",
+    "progress": "Progresso: {current} / {target}",
+    "collect": "Coletar",
+    "claimAll": "Recolher tudo",
+    "close": "Fechar"
+  },
+  "AchievementsDialog": {
+    "title": "Minhas Conquistas",
+    "description": "Desafios para provar sua maestria na fazenda.",
+    "close": "Fechar",
+    "claimAll": "Recolher tudo"
+  },
+  "AchievementItemCard": {
+    "reward": "Recompensa:",
+    "none": "Nenhuma",
+    "claimed": "Coletado",
+    "collect": "Coletar",
+    "inProgress": "Em Progresso"
+  },
+  "AchievementsList": {
+    "noneConfigured": "Nenhuma conquista configurada ainda.",
+    "errorLoading": "Erro ao carregar progresso para {title}"
+  },
+  "Items": {
+    "lettuce": {
+      "name": "Alface",
+      "description": "Folha verde para saladas."
+    },
+    "wheat": {
+      "name": "Trigo",
+      "description": "Grão básico para farinha e pão."
+    },
+    "strawberry": {
+      "name": "Morango",
+      "description": "Fruta vermelha doce e suculenta."
+    },
+    "carrot": {
+      "name": "Cenoura",
+      "description": "Raiz laranja, doce e crocante."
+    },
+    "tomato": {
+      "name": "Tomate",
+      "description": "Fruto vermelho, usado em saladas e molhos."
+    },
+    "onion": {
+      "name": "Cebola",
+      "description": "Bulbo com sabor forte, essencial na culinária."
+    },
+    "cucumber": {
+      "name": "Pepino",
+      "description": "Vegetal refrescante, ótimo para saladas."
+    },
+    "potato": {
+      "name": "Batata",
+      "description": "Tubérculo versátil, base de muitos pratos."
+    },
+    "cabbage": {
+      "name": "Couve",
+      "description": "Vegetal de folhas verdes, ótimo para sopas."
+    },
+    "pea": {
+      "name": "Ervilha",
+      "description": "Pequenos grãos verdes em vagem."
+    },
+    "sugarcane": {
+      "name": "Cana-de-Açúcar",
+      "description": "Planta alta usada para produzir açúcar."
+    },
+    "olive": {
+      "name": "Azeitona",
+      "description": "Fruto da oliveira, para consumo ou azeite."
+    },
+    "apple": {
+      "name": "Maçã",
+      "description": "Fruta crocante e popular, vem em várias cores."
+    },
+    "rice": {
+      "name": "Arroz",
+      "description": "Grão básico na alimentação mundial."
+    },
+    "basil": {
+      "name": "Manjericão",
+      "description": "Erva aromática, perfeita para pratos italianos."
+    },
+    "mushroom": {
+      "name": "Cogumelo",
+      "description": "Fungo comestível, vários tipos disponíveis."
+    },
+    "bellpepper": {
+      "name": "Pimento",
+      "description": "Vegetal colorido, pode ser doce ou picante."
+    },
+    "bean": {
+      "name": "Feijão",
+      "description": "Leguminosa nutritiva, base de muitos pratos."
+    },
+    "sunflower": {
+      "name": "Girassol",
+      "description": "Planta com flor grande amarela, produz sementes."
+    },
+    "grape_crop": {
+      "name": "Uva",
+      "description": "Pequenas frutas que crescem em cachos, usadas para vinho ou consumo direto."
+    },
+    "blueberry": {
+      "name": "Mirtilo",
+      "description": "Pequena fruta azul, rica em antioxidantes."
+    },
+    "orange": {
+      "name": "Laranja",
+      "description": "Fruta cítrica, rica em vitamina C."
+    },
+    "pear": {
+      "name": "Pera",
+      "description": "Fruta doce com formato característico."
+    },
+    "lemon": {
+      "name": "Limão",
+      "description": "Fruta cítrica azeda, ótima para temperos e bebidas."
+    },
+    "banana": {
+      "name": "Banana",
+      "description": "Fruta amarela e curva, rica em potássio."
+    },
+    "pumpkin": {
+      "name": "Abóbora",
+      "description": "Fruta grande, popular no outono."
+    },
+    "eggplant": {
+      "name": "Beringela",
+      "description": "Vegetal roxo escuro, com textura esponjosa."
+    },
+    "almond": {
+      "name": "Amêndoa",
+      "description": "Fruto seco, nutritivo e saboroso."
+    },
+    "melon": {
+      "name": "Melão",
+      "description": "Fruta grande e doce, com muita água."
+    },
+    "watermelon": {
+      "name": "Melancia",
+      "description": "Fruta grande e refrescante, perfeita para o verão."
+    },
+    "corn": {
+      "name": "Milho",
+      "description": "Grãos amarelos doces, crescem em espigas."
+    },
+    "egg": {
+      "name": "Ovo de Galinha",
+      "description": "Ovo fresco de galinha."
+    },
+    "duck_egg": {
+      "name": "Ovo de Pato",
+      "description": "Ovo fresco de pato, um pouco maior que o de galinha."
+    },
+    "milk": {
+      "name": "Leite de Vaca",
+      "description": "Leite fresco de vaca."
+    },
+    "goat_milk": {
+      "name": "Leite de Cabra",
+      "description": "Leite fresco de cabra, com sabor distinto."
+    },
+    "wool": {
+      "name": "Lã",
+      "description": "Lã macia de ovelha, para vestuário."
+    },
+    "honey": {
+      "name": "Mel",
+      "description": "Mel doce produzido por abelhas."
+    },
+    "sunflower_seeds": {
+      "name": "Sementes de Girassol",
+      "description": "Sementes nutritivas de girassol."
+    },
+    "sugar": {
+      "name": "Açúcar",
+      "description": "Açúcar refinado, para adoçar."
+    },
+    "chicken_meat": {
+      "name": "Carne de Frango",
+      "description": "Carne de frango fresca."
+    },
+    "duck_meat": {
+      "name": "Carne de Pato",
+      "description": "Carne de pato saborosa."
+    },
+    "beef_meat": {
+      "name": "Carne de Vaca",
+      "description": "Carne de vaca de primeira."
+    },
+    "pork_meat": {
+      "name": "Carne de Porco",
+      "description": "Carne de porco fresca."
+    },
+    "mutton_meat": {
+      "name": "Carne de Ovelha",
+      "description": "Carne de ovelha tenra."
+    },
+    "goat_meat_product": {
+      "name": "Carne de Cabra",
+      "description": "Carne de cabra, com sabor característico."
+    },
+    "rabbit_meat": {
+      "name": "Carne de Coelho",
+      "description": "Carne de coelho magra."
+    },
+    "turkey_meat": {
+      "name": "Carne de Peru",
+      "description": "Carne de peru macia."
+    },
+    "chicken": {
+      "name": "Galinha"
+    },
+    "duck": {
+      "name": "Pato"
+    },
+    "rabbit": {
+      "name": "Coelho"
+    },
+    "sheep": {
+      "name": "Ovelha"
+    },
+    "turkey": {
+      "name": "Peru"
+    },
+    "pig": {
+      "name": "Porco"
+    },
+    "goat": {
+      "name": "Cabra"
+    },
+    "bee": {
+      "name": "Abelha"
+    },
+    "cow": {
+      "name": "Vaca"
+    },
+    "flour": {
+      "name": "Farinha de Trigo",
+      "description": "Farinha de trigo moído, base para muitas receitas."
+    },
+    "omelette": {
+      "name": "Omelete",
+      "description": "Uma omelete simples feita com ovos frescos da quinta."
+    },
+    "watering_can": {
+      "name": "Regador",
+      "description": "Um regador que acelera o crescimento de uma cultura em 25%."
+    },
+    "dough": {
+      "name": "Massa Fresca",
+      "description": "Massa fresca feita com farinha e água, pronta para cozinhar."
+    },
+    "bread": {
+      "name": "Pão",
+      "description": "Um pão rústico feito com farinha da quinta."
+    },
+    "vegetable_soup": {
+      "name": "Sopa de Legumes",
+      "description": "Uma sopa quente e reconfortante."
+    },
+    "orange_juice": {
+      "name": "Sumo de Laranja",
+      "description": "Sumo de laranja fresco e natural."
+    },
+    "strawberry_compote": {
+      "name": "Compota de Morango",
+      "description": "Doce compota caseira de morangos frescos."
+    },
+    "carrot_cake": {
+      "name": "Bolo de Cenoura",
+      "description": "Um bolo de cenoura fofo."
+    },
+    "blueberry_juice": {
+      "name": "Sumo de Mirtilo",
+      "description": "Um sumo antioxidante e delicioso."
+    },
+    "blueberry_compote": {
+      "name": "Compota de Mirtilo",
+      "description": "Uma compota doce e rica em mirtilos."
+    },
+    "mixed_salad": {
+      "name": "Salada",
+      "description": "Uma salada colorida e nutritiva com vegetais frescos."
+    },
+    "apple_pie": {
+      "name": "Tarte de Maçã",
+      "description": "Uma tarte de maçã caseira e deliciosa."
+    },
+    "cod_with_potatoes": {
+      "name": "Bacalhau Assado com Batatas",
+      "description": "Bacalhau assado suculento com batatas."
+    },
+    "grilled_sardine_meal": {
+      "name": "Sardinha Grelhada",
+      "description": "Sardinha grelhada servida com batatas e salada."
+    },
+    "duck_rice": {
+      "name": "Arroz de Pato",
+      "description": "Um clássico prato português, saboroso e reconfortante."
+    },
+    "bean_stew": {
+      "name": "Feijoada",
+      "description": "Uma feijoada rica e saborosa."
+    },
+    "cheese": {
+      "name": "Queijo",
+      "description": "Queijo fresco feito com leite da quinta."
+    },
+    "pancake": {
+      "name": "Panqueca",
+      "description": "Panquecas fofas, perfeitas para o pequeno-almoço."
+    },
+    "goat_cheese_honey_toast": {
+      "name": "Tosta com Queijo de Cabra e Mel",
+      "description": "Uma tosta crocante com queijo de cabra cremoso e um fio de mel doce."
+    },
+    "churrasco": {
+      "name": "Churrasco",
+      "description": "Uma seleção generosa de carnes grelhadas, batatas e salada."
+    },
+    "almond_cake": {
+      "name": "Bolo de Amêndoa",
+      "description": "Bolo fofo e saboroso com amêndoas."
+    },
+    "pizza_margarita": {
+      "name": "Pizza Margarita",
+      "description": "Pizza clássica com tomate, queijo e manjericão."
+    },
+    "pumpkin_pie": {
+      "name": "Torta de Abóbora",
+      "description": "Torta clássica de abóbora com especiarias."
+    },
+    "melon_juice": {
+      "name": "Sumo de Melão",
+      "description": "Sumo refrescante de melão."
+    },
+    "stuffed_eggplant": {
+      "name": "Beringela Recheada",
+      "description": "Beringela recheada com carne e vegetais."
+    },
+    "watermelon_juice": {
+      "name": "Sumo de Melancia",
+      "description": "Sumo doce e hidratante de melancia."
+    },
+    "fruit_salad": {
+      "name": "Salada de Fruta",
+      "description": "Uma salada de frutas refrescante e saudável."
+    },
+    "pasta_tomato_basil": {
+      "name": "Massa com Tomate e Manjericão",
+      "description": "Um prato clássico italiano com ingredientes frescos da quinta."
+    },
+    "olive_oil": {
+      "name": "Azeite",
+      "description": "Azeite extra virgem, prensado de azeitonas frescas."
+    },
+    "rabbit_stew": {
+      "name": "Ensopado de Coelho",
+      "description": "Um ensopado rico e reconfortante com carne de coelho."
+    },
+    "turkey_roast": {
+      "name": "Peru Assado",
+      "description": "Peru assado suculento com batatas, um banquete festivo."
+    },
+    "water": {
+      "name": "Água",
+      "description": "Água fresca e pura, essencial para algumas receitas."
+    },
+    "fishing_bait": {
+      "name": "Isca de Pesca",
+      "description": "Usada para atrair peixes na zona de pesca."
+    },
+    "sardine": {
+      "name": "Sardinha",
+      "description": "Peixe pequeno e comum."
+    },
+    "seabass": {
+      "name": "Robalo",
+      "description": "Peixe saboroso, um pouco mais difícil de apanhar."
+    },
+    "cod": {
+      "name": "Bacalhau",
+      "description": "Peixe valioso, encontrado em águas mais profundas."
+    },
+    "salmon": {
+      "name": "Salmão",
+      "description": "Peixe rosado e delicioso, bom para grelhar."
+    },
+    "tuna": {
+      "name": "Atum",
+      "description": "Peixe grande e carnudo, excelente para bifes."
+    },
+    "recipe_watering_can": {
+      "name": "Regador",
+      "description": "Cria um regador."
+    },
+    "recipe_flour": {
+      "name": "Farinha",
+      "description": "Transforme trigo em farinha."
+    },
+    "recipe_omelette": {
+      "name": "Omelete",
+      "description": "Uma omelete simples feita com ovos frescos da quinta."
+    },
+    "recipe_dough": {
+      "name": "Massa Fresca",
+      "description": "Prepare massa fresca com farinha e água."
+    },
+    "recipe_bread": {
+      "name": "Pão",
+      "description": "Cria um delicioso pão com farinha."
+    },
+    "recipe_vegetable_soup": {
+      "name": "Sopa de Legumes",
+      "description": "Uma sopa quente e reconfortante."
+    },
+    "recipe_orange_juice": {
+      "name": "Sumo de Laranja",
+      "description": "Esprema laranjas para um sumo delicioso."
+    },
+    "recipe_strawberry_compote": {
+      "name": "Compota de Morango",
+      "description": "Faça uma compota bem doce."
+    },
+    "recipe_carrot_cake": {
+      "name": "Bolo de Cenoura",
+      "description": "Prepare um bolo de cenoura húmido e saboroso."
+    },
+    "recipe_blueberry_juice": {
+      "name": "Sumo de Mirtilo",
+      "description": "Esprema mirtilos para um sumo refrescante."
+    },
+    "recipe_blueberry_compote": {
+      "name": "Compota de Mirtilo",
+      "description": "Uma compota doce e rica em mirtilos."
+    },
+    "recipe_mixed_salad": {
+      "name": "Salada",
+      "description": "Uma salada colorida e nutritiva com vegetais frescos."
+    },
+    "recipe_apple_pie": {
+      "name": "Tarte de Maçã",
+      "description": "Asse uma tarte de maçã com ingredientes frescos."
+    },
+    "recipe_cod_with_potatoes": {
+      "name": "Bacalhau Assado com Batatas",
+      "description": "Bacalhau assado suculento com batatas."
+    },
+    "recipe_grilled_sardine_meal": {
+      "name": "Sardinha Grelhada",
+      "description": "Sardinha grelhada servida com batatas e salada."
+    },
+    "recipe_duck_rice": {
+      "name": "Arroz de Pato",
+      "description": "Cozinhe um delicioso arroz de pato."
+    },
+    "recipe_bean_stew": {
+      "name": "Feijoada",
+      "description": "Cozinhe uma feijoada saborosa e nutritiva."
+    },
+    "recipe_pancake": {
+      "name": "Panqueca",
+      "description": "Panquecas fofas, perfeitas para o pequeno-almoço."
+    },
+    "recipe_cheese": {
+      "name": "Queijo",
+      "description": "Transforme leite fresco em queijo delicioso."
+    },
+    "recipe_churrasco": {
+      "name": "Churrasco",
+      "description": "Prepare um churrasco completo com várias carnes, batatas e salada."
+    },
+    "recipe_goat_cheese_honey_toast": {
+      "name": "Tosta com Queijo de Cabra e Mel",
+      "description": "Prepare uma deliciosa tosta com queijo de cabra e mel."
+    },
+    "recipe_almond_cake": {
+      "name": "Bolo de Amêndoa",
+      "description": "Bolo fofo e saboroso com amêndoas."
+    },
+    "recipe_pizza_margarita": {
+      "name": "Pizza Margarita",
+      "description": "Faça uma pizza clássica e deliciosa."
+    },
+    "recipe_pumpkin_pie": {
+      "name": "Torta de Abóbora",
+      "description": "Torta clássica de abóbora com especiarias."
+    },
+    "recipe_melon_juice": {
+      "name": "Sumo de Melão",
+      "description": "Sumo refrescante de melão."
+    },
+    "recipe_stuffed_eggplant": {
+      "name": "Beringela Recheada",
+      "description": "Beringela recheada com carne e vegetais."
+    },
+    "recipe_watermelon_juice": {
+      "name": "Sumo de Melancia",
+      "description": "Sumo doce e hidratante de melancia."
+    },
+    "recipe_fruit_salad": {
+      "name": "Salada de Fruta",
+      "description": "Crie uma deliciosa e refrescante salada de frutas."
+    },
+    "recipe_pasta_tomato_basil": {
+      "name": "Massa com Tomate e Manjericão",
+      "description": "Prepare um delicioso prato de massa com tomate e manjericão."
+    },
+    "recipe_olive_oil": {
+      "name": "Azeite",
+      "description": "Prensa azeitonas para obter azeite puro."
+    },
+    "recipe_rabbit_stew": {
+      "name": "Ensopado de Coelho",
+      "description": "Cozinhe um ensopado rico com carne de coelho e legumes."
+    },
+    "recipe_turkey_roast": {
+      "name": "Peru Assado",
+      "description": "Asse um peru inteiro com batatas para um banquete."
+    },
+    "reach_level_10": {
+      "title": "Fazendeiro Experiente",
+      "description": "Alcance o Nível 10."
+    },
+    "reach_level_25": {
+      "title": "Mestre Fazendeiro",
+      "description": "Alcance o Nível 25."
+    },
+    "reach_level_40": {
+      "title": "Fazendeiro Lendário",
+      "description": "Alcance o Nível 40."
+    },
+    "complete_missions_20": {
+      "title": "Ajudante da Comunidade",
+      "description": "Complete 20 missões."
+    },
+    "complete_missions_75": {
+      "title": "Herói Local",
+      "description": "Complete 75 missões."
+    },
+    "complete_missions_150": {
+      "title": "Pilar da Comunidade",
+      "description": "Complete 150 missões."
+    },
+    "earn_currency_50k": {
+      "title": "Pequeno Investidor",
+      "description": "Ganhe um total de 50.000 moedas."
+    },
+    "earn_currency_750k": {
+      "title": "Magnata da Fazenda",
+      "description": "Ganhe um total de 750.000 moedas."
+    },
+    "earn_currency_1m": {
+      "title": "Fazendeiro Milionário",
+      "description": "Acumule um total de 1.000.000 moedas."
+    },
+    "own_fields_10": {
+      "title": "Expansão Agrícola",
+      "description": "Possua 10 campos."
+    },
+    "own_fields_15": {
+      "title": "Império Agrícola",
+      "description": "Possua 15 campos."
+    },
+    "own_pens_10": {
+      "title": "Amante de Animais",
+      "description": "Possua 10 currais."
+    },
+    "own_pens_15": {
+      "title": "Paraíso Animal",
+      "description": "Possua 15 currais."
+    },
+    "upgrade_buildings_20": {
+      "title": "Mestre Construtor",
+      "description": "Melhore campos ou currais 20 vezes."
+    },
+    "upgrade_buildings_40": {
+      "title": "Arquiteto Mestre",
+      "description": "Melhore campos ou currais 40 vezes no total."
+    },
+    "collect_eggs_300": {
+      "title": "Omelete Gigante",
+      "description": "Colete 300 Ovos de Galinha."
+    },
+    "collect_total_1000": {
+      "title": "Amigo dos Animais (Produtos)",
+      "description": "Colete um total de 1000 produtos animais."
+    },
+    "harvest_total_2000": {
+      "title": "Mão Verde",
+      "description": "Colha um total de 2000 itens de plantações."
+    },
+    "craft_items_total_200": {
+      "title": "Mestre Culinário",
+      "description": "Crie um total de 200 itens na bancada de receitas."
+    },
+    "harvest_lettuce_100": {
+      "title": "Mestre de Alface",
+      "description": "Colha 100 Alface."
+    },
+    "harvest_wheat_100": {
+      "title": "Mestre de Trigo",
+      "description": "Colha 100 Trigo."
+    },
+    "harvest_strawberry_100": {
+      "title": "Mestre de Morango",
+      "description": "Colha 100 Morango."
+    },
+    "harvest_carrot_100": {
+      "title": "Mestre de Cenoura",
+      "description": "Colha 100 Cenoura."
+    },
+    "harvest_tomato_100": {
+      "title": "Mestre de Tomate",
+      "description": "Colha 100 Tomate."
+    },
+    "harvest_onion_100": {
+      "title": "Mestre de Cebola",
+      "description": "Colha 100 Cebola."
+    },
+    "harvest_cucumber_100": {
+      "title": "Mestre de Pepino",
+      "description": "Colha 100 Pepino."
+    },
+    "harvest_potato_100": {
+      "title": "Mestre de Batata",
+      "description": "Colha 100 Batata."
+    },
+    "harvest_cabbage_100": {
+      "title": "Mestre de Couve",
+      "description": "Colha 100 Couve."
+    },
+    "harvest_pea_100": {
+      "title": "Mestre de Ervilha",
+      "description": "Colha 100 Ervilha."
+    },
+    "harvest_sugarcane_100": {
+      "title": "Mestre de Cana-de-Açúcar",
+      "description": "Colha 100 Cana-de-Açúcar."
+    },
+    "harvest_olive_100": {
+      "title": "Mestre de Azeitona",
+      "description": "Colha 100 Azeitona."
+    },
+    "harvest_apple_100": {
+      "title": "Mestre de Maçã",
+      "description": "Colha 100 Maçã."
+    },
+    "harvest_rice_100": {
+      "title": "Mestre de Arroz",
+      "description": "Colha 100 Arroz."
+    },
+    "harvest_basil_100": {
+      "title": "Mestre de Manjericão",
+      "description": "Colha 100 Manjericão."
+    },
+    "harvest_mushroom_100": {
+      "title": "Mestre de Cogumelo",
+      "description": "Colha 100 Cogumelo."
+    },
+    "harvest_bellpepper_100": {
+      "title": "Mestre de Pimento",
+      "description": "Colha 100 Pimento."
+    },
+    "harvest_bean_100": {
+      "title": "Mestre de Feijão",
+      "description": "Colha 100 Feijão."
+    },
+    "harvest_sunflower_100": {
+      "title": "Mestre de Girassol",
+      "description": "Colha 100 Girassol."
+    },
+    "harvest_grape_crop_100": {
+      "title": "Mestre de Uva",
+      "description": "Colha 100 Uva."
+    },
+    "harvest_blueberry_100": {
+      "title": "Mestre de Mirtilo",
+      "description": "Colha 100 Mirtilo."
+    },
+    "harvest_orange_100": {
+      "title": "Mestre de Laranja",
+      "description": "Colha 100 Laranja."
+    },
+    "harvest_pear_100": {
+      "title": "Mestre de Pera",
+      "description": "Colha 100 Pera."
+    },
+    "harvest_lemon_100": {
+      "title": "Mestre de Limão",
+      "description": "Colha 100 Limão."
+    },
+    "harvest_banana_100": {
+      "title": "Mestre de Banana",
+      "description": "Colha 100 Banana."
+    },
+    "harvest_pumpkin_100": {
+      "title": "Mestre de Abóbora",
+      "description": "Colha 100 Abóbora."
+    },
+    "harvest_eggplant_100": {
+      "title": "Mestre de Beringela",
+      "description": "Colha 100 Beringela."
+    },
+    "harvest_almond_100": {
+      "title": "Mestre de Amêndoa",
+      "description": "Colha 100 Amêndoa."
+    },
+    "harvest_melon_100": {
+      "title": "Mestre de Melão",
+      "description": "Colha 100 Melão."
+    },
+    "harvest_watermelon_100": {
+      "title": "Mestre de Melancia",
+      "description": "Colha 100 Melancia."
+    },
+    "harvest_corn_100": {
+      "title": "Mestre de Milho",
+      "description": "Colha 100 Milho."
+    },
+    "buy_chicken_2": {
+      "title": "Criador de Galinha",
+      "description": "Compre 2 Galinha."
+    },
+    "buy_duck_2": {
+      "title": "Criador de Pato",
+      "description": "Compre 2 Pato."
+    },
+    "buy_rabbit_2": {
+      "title": "Criador de Coelho",
+      "description": "Compre 2 Coelho."
+    },
+    "buy_sheep_2": {
+      "title": "Criador de Ovelha",
+      "description": "Compre 2 Ovelha."
+    },
+    "buy_turkey_2": {
+      "title": "Criador de Peru",
+      "description": "Compre 2 Peru."
+    },
+    "buy_pig_2": {
+      "title": "Criador de Porco",
+      "description": "Compre 2 Porco."
+    },
+    "buy_goat_2": {
+      "title": "Criador de Cabra",
+      "description": "Compre 2 Cabra."
+    },
+    "buy_bee_2": {
+      "title": "Criador de Abelha",
+      "description": "Compre 2 Abelha."
+    },
+    "buy_cow_2": {
+      "title": "Criador de Vaca",
+      "description": "Compre 2 Vaca."
+    }
+  },
+  "ContractsSection": {
+    "title": "Contratos",
+    "description": "Entrega encomendas de clientes por moedas e XP.",
+    "empty": "Sem contrato ativo de momento.",
+    "nextIn": "Próximo contrato em {time}.",
+    "deliver": "Entregar",
+    "reward": "Recompensa",
+    "expires": "Expira em {time}.",
+    "pinned": "Fixado",
+    "pin": "Fixar",
+    "unpin": "Soltar",
+    "progress": "{have}/{need}"
+  },
+  "StatsDialog": {
+    "title": "Estatísticas",
+    "description": "O progresso da tua quinta em números.",
+    "earned": "Moedas ganhas",
+    "harvested": "Colheitas",
+    "collected": "Produtos recolhidos",
+    "crafted": "Itens criados",
+    "fished": "Peixes apanhados",
+    "contracts": "Contratos cumpridos",
+    "playTime": "Tempo de jogo"
+  }
+}
